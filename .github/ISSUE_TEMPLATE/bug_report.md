@@ -30,7 +30,7 @@ If applicable, add screenshots to help explain your problem.
 ## Environment
 
 - OS: [e.g., Ubuntu 22.04, macOS 14]
-- Python version: [e.g., 3.11.0]
+- Go, Node, NPM version: [e.g., 24.18.0]
 - Docker version (if applicable): [e.g., 24.0.0]
 
 ## Configuration
