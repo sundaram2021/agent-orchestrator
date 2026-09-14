@@ -1,0 +1,1432 @@
+.agents/skills/bug-triage/SKILL.md
+  h_004cd95484b0ae 3,6,8-10,12,14-16,18-19,21-24,26-28,30,32-37,39,41-42,44-46,48-53,55-56,58,60-62,64-66,68-72,74,76-81,83-89,91-93,95,97,100-101,104-108,110,112-113,115-116,118-123,125-128
+.github/.gitleaks.toml
+  h_004cd95484b0ae 178-180
+.github/CODEOWNERS
+  h_004cd95484b0ae 1-3
+.github/ISSUE_TEMPLATE/bug_report.yml
+  h_004cd95484b0ae 9-10,14,16-17,19
+.github/workflows/frontend.yml
+  h_004cd95484b0ae 23-49
+.github/workflows/go.yml
+  h_004cd95484b0ae 9,87-122,147-168
+.github/workflows/release-latest-guard.yml
+  h_004cd95484b0ae 62-97
+.github/workflows/version-floor-guard.yml
+  h_004cd95484b0ae 1-56
+AGENTS.md
+  h_004cd95484b0ae 46-63,68
+CONTRIBUTING.md
+  h_004cd95484b0ae 4-5,28,45-59
+README.md
+  h_004cd95484b0ae 13,20,50,89,129,175,179,185,187,189,206-207,233
+backend/e2e/chat_persistent_acp_host_test.go
+  h_004cd95484b0ae 1-153
+backend/internal/adapters/agent/claudecode/claudecode.go
+  h_004cd95484b0ae 216-219,221-223,246
+backend/internal/adapters/agent/claudecode/claudecode_test.go
+  h_004cd95484b0ae 693-729
+backend/internal/adapters/agent/kimchi/kimchi.go
+  h_004cd95484b0ae 250,259-262,291-293
+backend/internal/adapters/agent/kimchi/kimchi_test.go
+  h_004cd95484b0ae 416-439
+backend/internal/adapters/agent/muse/muse.go
+  h_004cd95484b0ae 115,118-120,162-164
+backend/internal/adapters/agent/muse/muse_test.go
+  h_004cd95484b0ae 488-511
+backend/internal/adapters/agent/omp/console_windows_test.go
+  h_004cd95484b0ae 1-39
+backend/internal/adapters/agent/omp/hooks.go
+  h_004cd95484b0ae 16,74
+backend/internal/adapters/agent/omp/omp.go
+  h_004cd95484b0ae 8,10,39,117-167
+backend/internal/adapters/agent/omp/omp_test.go
+  h_004cd95484b0ae 310-366
+backend/internal/adapters/agent/opencode/opencode.go
+  h_004cd95484b0ae 131,135-138,165-167
+backend/internal/adapters/agent/opencode/opencode_test.go
+  h_004cd95484b0ae 907-937
+backend/internal/adapters/agent/pi/console_windows_test.go
+  h_004cd95484b0ae 1-39
+backend/internal/adapters/agent/pi/hooks.go
+  h_004cd95484b0ae 16,82
+backend/internal/adapters/agent/primeagent/console_windows_test.go
+  h_004cd95484b0ae 1-38
+backend/internal/adapters/agent/primeagent/lifecycle.go
+  h_004cd95484b0ae 12,32
+backend/internal/adapters/chatdriver/acp/client.go
+  h_004cd95484b0ae 16,88,105-112,117-119,124-126,133-138,152-156,164-166,220-226,238-251,257-262,270-274,282-284,293-303,332-333,335-348,556-564,572,576-586,598,602,609,612-617,625,629,642-643,647,650-651,653,656,660,673,683,685,691-695,978,990,1091-1095,1126
+backend/internal/adapters/chatdriver/acp/client_connection_test.go
+  h_004cd95484b0ae 17,120-148
+backend/internal/adapters/chatdriver/acp/conversation.go
+  h_004cd95484b0ae 19,57,63,91-133,154-159,181,285,313-366,543-550,552-556,558,560,562,569-575,588,607-624,628,640-767,808-810,841-854,856-867,872-881,886-887,891-894,905-909,914-927,930-936,955-963
+backend/internal/adapters/chatdriver/acp/driver.go
+  h_004cd95484b0ae 9-10,19-20,104-108,118-120,142-151,197-198,201,205-210,218,223,240,244,259,286-287,290,294-330,332,338,346,369,383,397,410-412,414,416-423,427-447,452-454,485,487,489,493-494,497-555
+backend/internal/adapters/chatdriver/acp/driver_test.go
+  h_004cd95484b0ae 4-5,12-14,22,27-648,674,983,985-987,1068,1172,1189-1193,1205,1223,1225,1231-1255,1265-1338,1365,1466,1558,1699,1758,1803,1860,1902,1977,2049,2183,2306,2375,2530,2585,2649,2688,2852,2890,2916,3002,3080,3157,3191,3226,3308,3328-3762
+backend/internal/adapters/chatdriver/acp/extensions.go
+  h_004cd95484b0ae 6-7,11,16-33,61-83,91-139,144-149,158-233
+backend/internal/adapters/chatdriver/acp/process.go
+  h_004cd95484b0ae 4,12,17-23,26-46,104-129
+backend/internal/adapters/chatdriver/acp/restart_test.go
+  h_004cd95484b0ae 1,8,15-22,24-26,28,31-59,63-79,81-82,84,86,89-95,97,99,101-102,104-107,109-110,112-115,117,120-130
+backend/internal/adapters/chatdriver/acp/skills.go
+  h_004cd95484b0ae 26,31-33,54,62-70
+backend/internal/adapters/chatdriver/claudeacp/driver.go
+  h_004cd95484b0ae 50
+backend/internal/adapters/chatdriver/claudeacp/driver_test.go
+  h_004cd95484b0ae 97-120
+backend/internal/adapters/chatdriver/claudeacp/live_test.go
+  h_004cd95484b0ae 32,34,46-47,52,59,97-101
+backend/internal/adapters/chatdriver/codexappserver/conversation.go
+  h_004cd95484b0ae 83,833,836,845,847,850
+backend/internal/adapters/chatdriver/codexappserver/driver.go
+  h_004cd95484b0ae 271-273,330-332,410,415-421,429,435-444,446-448
+backend/internal/adapters/chatdriver/codexappserver/driver_test.go
+  h_004cd95484b0ae 270,285-288,297-299
+backend/internal/adapters/chatdriver/cursoracp/live_test.go
+  h_004cd95484b0ae 76-77,89,136,257-259
+backend/internal/adapters/chatdriver/opencodeacp/live_test.go
+  h_004cd95484b0ae 38,68-72
+backend/internal/adapters/chatdriver/persistenthost/acp_journal.go
+  h_004cd95484b0ae 1,7,11,13,15-22,25-28,30,32,34,36,38-40,42,45-47,49-50,52-54,56,58-59,61,64,68-74,78,80,82-83,85-86,88-89,92-94,96
+backend/internal/adapters/chatdriver/persistenthost/acp_journal_test.go
+  h_004cd95484b0ae 1-54
+backend/internal/adapters/chatdriver/persistenthost/acp_relay.go
+  h_004cd95484b0ae 1,4,6,9,14-16,19-24,26-30,32-44,47-50,53-55,58-75,78-79,81,83,85,87-121,123-130,132-139,141-143,145,148-169,173-197,199-200,202-203,205-207,209,211-242,245-259,261-265,267-298,301-332,334-346,348-374,376,378-401,404-408,410-422,426-483,487-489,492-494,497-525,527-529,531-536,539-563,565,568-569,572-578,581-582,586
+backend/internal/adapters/chatdriver/persistenthost/acp_relay_restart_test.go
+  h_004cd95484b0ae 1-87
+backend/internal/adapters/chatdriver/persistenthost/acp_relay_test.go
+  h_004cd95484b0ae 1,4,6,12-13,15-20,22-24,26-27,29-32,34-37,39-48,50-55,57-73,75-76,78-80,82-88,90-91,93-95,97-98,100-116,118-144,146-148,150-151,154-156,158-166,169-182,185-199,203-217,219,221-232,235-236,240-246,248-249,251-258,262-266,268-269,272-282,285,288-292,294-295,297-307,309,312-315,317-318,320,323-328,330-331,333-334,337,339-343,345
+backend/internal/adapters/chatdriver/persistenthost/child_unix.go
+  h_004cd95484b0ae 1-25
+backend/internal/adapters/chatdriver/persistenthost/child_windows.go
+  h_004cd95484b0ae 1-37
+backend/internal/adapters/chatdriver/persistenthost/host.go
+  h_004cd95484b0ae 2-4,38-63,69-70,81-88,93-119,128,138-141,269-283,288-290,332-344,357-359,466-469,484-486,495-497,502-504,522-546,572,586-590,592,599,603-610,621-624,626,631-632,640,650,655-667,722-731,756-783,838-856,870,874,916-924
+backend/internal/adapters/chatdriver/persistenthost/host_race_test.go
+  h_004cd95484b0ae 31-34,36-37
+backend/internal/adapters/chatdriver/persistenthost/host_test.go
+  h_004cd95484b0ae 18-31,34-35,50-53,78-80,84-303,522-523,525-531,538,556-641,675-707
+backend/internal/adapters/chatdriver/persistenthost/spawn_unix.go
+  h_004cd95484b0ae 21
+backend/internal/adapters/chatdriver/persistenthost/spawn_windows.go
+  h_004cd95484b0ae 22
+backend/internal/adapters/reviewer/agentrestore/agentrestore.go
+  h_004cd95484b0ae 26-32,49,56-60
+backend/internal/adapters/reviewer/claudecode/claudecode.go
+  h_004cd95484b0ae 11,83-84,135-141,156-206
+backend/internal/adapters/reviewer/claudecode/claudecode_test.go
+  h_004cd95484b0ae 5-7,12,26-37,92,94-98,110-142,214,217,226-228,238-240,246-339,366-450,512-536
+backend/internal/adapters/reviewer/codex/codex_test.go
+  h_004cd95484b0ae 136-138
+backend/internal/adapters/reviewer/cursor/cursor_test.go
+  h_004cd95484b0ae 156-176
+backend/internal/adapters/reviewer/kimchi/kimchi_test.go
+  h_004cd95484b0ae 188-190
+backend/internal/adapters/reviewer/muse/muse_test.go
+  h_004cd95484b0ae 99-101
+backend/internal/adapters/reviewer/opencode/opencode_test.go
+  h_004cd95484b0ae 128-130
+backend/internal/adapters/reviewer/registry_test.go
+  h_004cd95484b0ae 39,53,96-99
+backend/internal/adapters/runtime/conpty/runtime.go
+  h_004cd95484b0ae 374-399
+backend/internal/adapters/runtime/conpty/shellterm_test.go
+  h_004cd95484b0ae 1-143
+backend/internal/adapters/runtime/runtimeselect/hybrid.go
+  h_004cd95484b0ae 85-89
+backend/internal/adapters/runtime/runtimeselect/hybrid_test.go
+  h_004cd95484b0ae 19-20,59-84
+backend/internal/adapters/runtime/runtimeselect/runtimeselect.go
+  h_004cd95484b0ae 22
+backend/internal/adapters/runtime/tmux/commands.go
+  h_004cd95484b0ae 68-73
+backend/internal/adapters/runtime/tmux/tmux.go
+  h_004cd95484b0ae 586-618
+backend/internal/adapters/runtime/tmux/tmux_test.go
+  h_004cd95484b0ae 1344-1411
+backend/internal/adapters/scm/gitlab/client.go
+  h_004cd95484b0ae 7,170-173,219-222,243-244,246-248,255-258,261-270,378,380-382,498-499,509-523
+backend/internal/adapters/scm/gitlab/client_response_test.go
+  h_004cd95484b0ae 1-271
+backend/internal/adapters/telemetry/policyauthority/reader.go
+  h_004cd95484b0ae 50,63,68,73-88
+backend/internal/adapters/telemetry/policyauthority/reader_test.go
+  h_004cd95484b0ae 1-65
+backend/internal/adapters/workspace/router/router.go
+  h_004cd95484b0ae 188-195
+backend/internal/adapters/workspace/scratch/workspace.go
+  h_004cd95484b0ae 152,155-158
+backend/internal/adapters/workspace/scratch/workspace_test.go
+  h_004cd95484b0ae 60-84
+backend/internal/cdc/event.go
+  h_004cd95484b0ae 7-10
+backend/internal/cdc/retention.go
+  h_004cd95484b0ae 1-145
+backend/internal/cdc/retention_test.go
+  h_004cd95484b0ae 1-74
+backend/internal/cli/chat_host.go
+  h_004cd95484b0ae 20-31,34-40
+backend/internal/cli/client.go
+  h_004cd95484b0ae 4,23-26,40-69,161,164,193,195,203-224,226,230-247
+backend/internal/cli/client_transport_test.go
+  h_004cd95484b0ae 1-248
+backend/internal/cli/doctor.go
+  h_004cd95484b0ae 22,68-91,205-217
+backend/internal/cli/doctor_test.go
+  h_004cd95484b0ae 17-18,455-471,478-557
+backend/internal/cli/orchestrator.go
+  h_004cd95484b0ae 52
+backend/internal/cli/review.go
+  h_004cd95484b0ae 4,19-23,204,207-212,227,230-242,251-287
+backend/internal/cli/review_test.go
+  h_004cd95484b0ae 4,6,14-15,45,72,93,137-317,320
+backend/internal/cli/root_test.go
+  h_004cd95484b0ae 446
+backend/internal/cli/session.go
+  h_004cd95484b0ae 12-13,58-59,71-90,159-178,520-523,525,530-571,835,848,851-852,862-882,906,913,918,923,926,930-931,935-937,951-969,971-973,975-980,982-987,989
+backend/internal/cli/session_test.go
+  h_004cd95484b0ae 13,224-361
+backend/internal/cli/spawn.go
+  h_004cd95484b0ae 24,42,68-69,71,74-76,96-107,118-125,171-173,213-214,218,266
+backend/internal/cli/spawn_test.go
+  h_004cd95484b0ae 486,500,508,512-513,515,518,524-545
+backend/internal/config/config.go
+  h_004cd95484b0ae 142-144
+backend/internal/daemon/cdc_wiring.go
+  h_004cd95484b0ae 17-19,30-35,42-44
+backend/internal/daemon/daemon.go
+  h_004cd95484b0ae 26,382-384,505
+backend/internal/daemon/lifecycle_wiring.go
+  h_004cd95484b0ae 550,567
+backend/internal/daemon/persistent_chat_wiring.go
+  h_004cd95484b0ae 16,29
+backend/internal/daemon/persistent_chat_wiring_test.go
+  h_004cd95484b0ae 17-18,23-25
+backend/internal/daemon/shellterm_wiring.go
+  h_004cd95484b0ae 16-18
+backend/internal/daemon/wiring_test.go
+  h_004cd95484b0ae 995-998
+backend/internal/domain/conversation.go
+  h_004cd95484b0ae 472-474,677-775
+backend/internal/domain/notification.go
+  h_004cd95484b0ae 133
+backend/internal/domain/pr.go
+  h_004cd95484b0ae 94-97
+backend/internal/domain/projectconfig_test.go
+  h_004cd95484b0ae 43-45
+backend/internal/domain/review.go
+  h_004cd95484b0ae 27-37
+backend/internal/domain/session.go
+  h_004cd95484b0ae 96,102,138-140,174-181
+backend/internal/gitdefault/resolver.go
+  h_004cd95484b0ae 23,74-91,105-107,181-187,196-207
+backend/internal/gitdefault/resolver_test.go
+  h_004cd95484b0ae 6,226-290
+backend/internal/httpd/apispec/openapi.yaml
+  h_004cd95484b0ae 5938-5994,6068-6073,6108-6163,6235-6331,6371-6436,8304-8305,8437-8442,8465-8466,9356-9357,9868-9875,9958-9959,9962,11188-11191,11451-11452,11847-11848,12083-12095,12203-12206,12219-12320,12349-12352,12372-12373,12383,12388-12476,12510-12513,12536-12537
+backend/internal/httpd/apispec/specgen/build.go
+  h_004cd95484b0ae 258,260-261,292-299,2027-2079
+backend/internal/httpd/controllers/conversation_history_test.go
+  h_004cd95484b0ae 274-277
+backend/internal/httpd/controllers/conversation_queue.go
+  h_004cd95484b0ae 61,102-104
+backend/internal/httpd/controllers/conversation_queue_test.go
+  h_004cd95484b0ae 96,98-102,106-112
+backend/internal/httpd/controllers/conversation_steer.go
+  h_004cd95484b0ae 48-58,154-163
+backend/internal/httpd/controllers/conversation_steer_test.go
+  h_004cd95484b0ae 49-56,119-122,134-149,300-314
+backend/internal/httpd/controllers/conversations.go
+  h_004cd95484b0ae 38,219-230,657-660,662,691-694,697,719-732
+backend/internal/httpd/controllers/conversations_test.go
+  h_004cd95484b0ae 37-50,70-72,366-405
+backend/internal/httpd/controllers/dto.go
+  h_004cd95484b0ae 173-182,195-211,280-281,404-410,415,437-441,454-462,476,485-559,585,943,1060-1067,1147-1148,1150,1854-1857,1893-1895,1897-1899,2511
+backend/internal/httpd/controllers/dto_test.go
+  h_004cd95484b0ae 21-22,78-80,83-106
+backend/internal/httpd/controllers/prs.go
+  h_004cd95484b0ae 63-66
+backend/internal/httpd/controllers/prs_test.go
+  h_004cd95484b0ae 167-177
+backend/internal/httpd/controllers/reviews.go
+  h_004cd95484b0ae 22-25,126-136,138-139,144,146,355-359
+backend/internal/httpd/controllers/reviews_test.go
+  h_004cd95484b0ae 172,180,185-212,215-219,227
+backend/internal/httpd/controllers/sessions.go
+  h_004cd95484b0ae 112-113,115-118,181,183-185,577-584,592-697,789-797,1781,1793,2040-2051,2057-2065,2094,2111,2120-2152,2154
+backend/internal/httpd/controllers/sessions_test.go
+  h_004cd95484b0ae 37-83,604-617,633-685,1392-1405,2363,2386,2399-2401,2422,2440,2449-2451,2474-2485,2494-2605,3221,3227-3229
+backend/internal/httpd/lan_listener.go
+  h_004cd95484b0ae 53-55,69-70
+backend/internal/httpd/lan_listener_test.go
+  h_004cd95484b0ae 12-15,17-18,54-56,116-135,211-310
+backend/internal/integration/workspace_pr_test.go
+  h_004cd95484b0ae 1-51
+backend/internal/lifecycle/chat_reconnect_test.go
+  h_004cd95484b0ae 1-74
+backend/internal/lifecycle/manager.go
+  h_004cd95484b0ae 1101-1120,1433-1437,1448-1456
+backend/internal/lifecycle/manager_test.go
+  h_004cd95484b0ae 4016-4033
+backend/internal/mobilebridge/process.go
+  h_004cd95484b0ae 11-12,34,42,57
+backend/internal/mobilebridge/tunnel.go
+  h_004cd95484b0ae 15-16,210
+backend/internal/mobilebridge/tunnel_runner.go
+  h_004cd95484b0ae 12-13,73
+backend/internal/mobilebridge/tunnel_windows_test.go
+  h_004cd95484b0ae 1-135
+backend/internal/observe/agentswitch/policy.go
+  h_004cd95484b0ae 267,269,274,276,278-283
+backend/internal/observe/agentswitch/policy_test.go
+  h_004cd95484b0ae 75-134,479-489
+backend/internal/observe/scm/observer.go
+  h_004cd95484b0ae 17,319-323,773,870,1221-1225,1229-1236,1241-1243,1246,1249-1251,1253-1272,1744-1751,1784-1787,1789,1792-1798,1840
+backend/internal/observe/scm/observer_test.go
+  h_004cd95484b0ae 3259-3331
+backend/internal/observe/scm/workspace_attribution_test.go
+  h_004cd95484b0ae 1-141
+backend/internal/ports/agent_switch_observability.go
+  h_004cd95484b0ae 13-16
+backend/internal/ports/chat.go
+  h_004cd95484b0ae 223-226,253-254,955-966
+backend/internal/ports/outbound.go
+  h_004cd95484b0ae 89-95,219-222
+backend/internal/ports/reviewer.go
+  h_004cd95484b0ae 149-151
+backend/internal/push/dispatcher.go
+  h_004cd95484b0ae 58-60,146-147,184-201,213-214,216-218,220-227,231-238,241-248,252-257,259-263,268-273
+backend/internal/push/dispatcher_test.go
+  h_004cd95484b0ae 5-6,9,50-59,74,81-83,353-664
+backend/internal/review/launcher.go
+  h_004cd95484b0ae 68,86,88-90,388-392,414,423,472,544-546
+backend/internal/review/launcher_test.go
+  h_004cd95484b0ae 305,311-313,317,320-323,607,631-633,663-664,673-740
+backend/internal/review/review.go
+  h_004cd95484b0ae 161-165,317,425-430,435-437,442,462,471,832,837-841,844,855-866,871,878-889,986,992,1099,1105,1111-1115,1121-1127,1356,1363-1373,1380-1385
+backend/internal/review/review_test.go
+  h_004cd95484b0ae 14-15,58-63,69-79,295,322,326-328,336-338,348-351,357-359,363-366,374-376,441-460,489-580,664-834,1653,1704,2565,2573
+backend/internal/service/chat/branch_shutdown_test.go
+  h_004cd95484b0ae 1-126
+backend/internal/service/chat/chatui_regression_test.go
+  h_004cd95484b0ae 1-15
+backend/internal/service/chat/checkpoint_provenance_test.go
+  h_004cd95484b0ae 1-103
+backend/internal/service/chat/controller.go
+  h_004cd95484b0ae 45,77-86,91-92,345,357,362,397-440,451,1445,1451-1454,1469,1474,1479-1481,1624,1784,1974,2184,2201-2223,2671-2674,2700-2703,2778-2780
+backend/internal/service/chat/controller_hold_queue_test.go
+  h_004cd95484b0ae 1-100
+backend/internal/service/chat/controller_persistent_test.go
+  h_004cd95484b0ae 1,6-9,13-15,18-21,24-27,30-33,36-37,40-42,45-62,65-132,136-140,142-195,199-203,205-207,209-217
+backend/internal/service/chat/controller_test.go
+  h_004cd95484b0ae 85,238,272-277,377-384,393-400,410-414,1070,1596,1748,2117-2122,2201-2204,2256,3743,3745-3748,3754-3757,3765-3767,3807-3816,3829-3836,3841-3850,4949-4953,5098-5112
+backend/internal/service/chat/history.go
+  h_004cd95484b0ae 61-72,174-199,207-220,225-228,233,238-242,245,249-251,256-258,266,272,275,286,295-299,340-342,381,396,409-410,443,627-628,640-647,649-650,662-823,986-989,1161-1169
+backend/internal/service/chat/history_adversarial_test.go
+  h_004cd95484b0ae 114-119
+backend/internal/service/chat/history_test.go
+  h_004cd95484b0ae 8-9,12,16,18,538-539,546-567,574-585,630-632,648-651,670-681,683-684,687,856-859,863-875,893-951,1304-1505,1984-2399,2401,2410-2413,2417-2439
+backend/internal/service/chat/opencode_mode_test.go
+  h_004cd95484b0ae 1-117
+backend/internal/service/chat/queue.go
+  h_004cd95484b0ae 5,9,29,65-84,125-140,211-225
+backend/internal/service/chat/queue_test.go
+  h_004cd95484b0ae 12,96-173
+backend/internal/service/chat/service.go
+  h_004cd95484b0ae 9,48,95-97,122,195-199,206,332,334-337,443-445,454,456-461,472-473,487-488,513-536,559,591-597,654,660,667,714-716,718-728,755-765,909-911,915-923,1283-1285,1406-1415,1423-1441,1552-1555
+backend/internal/service/chat/steer.go
+  h_004cd95484b0ae 50-56,108-127,256-288,299-303,307-322,324-340,348-365,370-380,382-386,393-404,406-411,416-510
+backend/internal/service/chat/steer_test.go
+  h_004cd95484b0ae 7-8,95-102,105,122-171,291,295-296,299-300,303-308,318-436,442,444,451-468,476,478,482-488,499-508,532,541,545-554,805-846
+backend/internal/service/importer/importer.go
+  h_004cd95484b0ae 547-551
+backend/internal/service/importer/importer_test.go
+  h_004cd95484b0ae 14,1158-1189
+backend/internal/service/pr/action_service_test.go
+  h_004cd95484b0ae 77-91
+backend/internal/service/project/clone.go
+  h_004cd95484b0ae 138-140
+backend/internal/service/project/service.go
+  h_004cd95484b0ae 303-327,330,336,393
+backend/internal/service/project/service_test.go
+  h_004cd95484b0ae 19,24,551-558,2092-2162
+backend/internal/service/review/review.go
+  h_004cd95484b0ae 91,573,576,578,587-588,593,596,601-606
+backend/internal/service/review/review_test.go
+  h_004cd95484b0ae 31,44,48-63,330-331,338-411
+backend/internal/service/session/claim_port_test.go
+  h_004cd95484b0ae 5,9,36-96
+backend/internal/service/session/claim_pr.go
+  h_004cd95484b0ae 97-98,129,149-171,237,242-251,287-288
+backend/internal/service/session/claim_workspace_test.go
+  h_004cd95484b0ae 1-112
+backend/internal/service/session/pr_summary.go
+  h_004cd95484b0ae 62,84-90,92,98,116,166-175,293-348
+backend/internal/service/session/provider_preserved_test.go
+  h_004cd95484b0ae 1-38
+backend/internal/service/session/service.go
+  h_004cd95484b0ae 51,182,192-199,254-256,273-286,915,955-959,963-969,1001,1020-1022,1034-1039,1041-1044
+backend/internal/service/session/service_test.go
+  h_004cd95484b0ae 103-106,732-769,1716-1721,2123-2125,2218-2236,2266-2329,2657-2697,3889,4317-4322,4341,4384-4504,4515
+backend/internal/service/session/status_readiness_test.go
+  h_004cd95484b0ae 1-72
+backend/internal/service/session/workspace_cache.go
+  h_004cd95484b0ae 44,51-55,58,80-96,102-108,112-113,125-129
+backend/internal/service/session/workspace_cache_test.go
+  h_004cd95484b0ae 1-214
+backend/internal/service/session/workspace_files.go
+  h_004cd95484b0ae 61-67,74,117,129-137,151,161-171,208-210,228-230,239,242-246,264,276,290-291,293-393,425-427,1079-1080,1086-1088,1146-1200,1396-1399,1757-1759,1761-1771,1774-1778,1780-1797,1802-1805,1807-1823,2069,2194,2197-2208,2211,2258-2260,2284-2323
+backend/internal/service/session/workspace_review.go
+  h_004cd95484b0ae 1-602
+backend/internal/service/session/workspace_review_test.go
+  h_004cd95484b0ae 1,5,10,13,15-51,55-58,60,64-65,67-68,71-72,74,76-81,86-89,91,93-94,96-97,99-100,104-120,123-124,127-129,133-134,136-139,141-142,144,148-149,153-161,165-173,177-179,181-184,188-194,198-205,209-210,212-214,216-217
+backend/internal/service/session/workspace_tree.go
+  h_004cd95484b0ae 72-74
+backend/internal/service/shellterm/service.go
+  h_004cd95484b0ae 25,27,52-53,239,296,361,381-387,406,537-541,547,553,561-565,574-576,584-593,608-610
+backend/internal/service/shellterm/service_test.go
+  h_004cd95484b0ae 46-47,117-126,129-131,192-194,317,1536-1537,1541-1542,1568,1598-1599,1632-1815
+backend/internal/service/shellterm/store.go
+  h_004cd95484b0ae 11-12,21,28
+backend/internal/service/shellterm/tmux_integration_test.go
+  h_004cd95484b0ae 1-146
+backend/internal/session_manager/chat_spawn.go
+  h_004cd95484b0ae 105,232,385,455,549,551-556
+backend/internal/session_manager/chat_spawn_test.go
+  h_004cd95484b0ae 71,157,240-264,300-369
+backend/internal/session_manager/interface_transition.go
+  h_004cd95484b0ae 84-87,107,113-116,171,492-506
+backend/internal/session_manager/interface_transition_test.go
+  h_004cd95484b0ae 664-725,2327-2357
+backend/internal/session_manager/manager.go
+  h_004cd95484b0ae 26,235,338,422-427,738-739,775,777-782,867,1065-1067,1164-1166,1192,1195-1197,1199-1202,1390-1397,1693,1704-1705,1964,2115-2126,2169,2229,2512,2537-2541,2544-2550,2734-2741,2783-2785,2796,2816,2819-2821,2823,3009,3197-3199,3206-3212,3215,3228-3231,3233-3236,3638,3688-3692,3710,3718-3725,3733,3851,3859,3862,3864,3870,3879,3888-3894,3989-3992,3999-4006,4008,4021-4028,4033,4184-4185,4187,4220-4221,4229,4233-4236,4242,4246-4282,4361,4839-4843
+backend/internal/session_manager/manager_test.go
+  h_004cd95484b0ae 72-76,87,218-224,5954-5974,7898,7938-7939,7945-7946,8341-8384
+backend/internal/session_manager/model_restore_test.go
+  h_004cd95484b0ae 1-187
+backend/internal/session_manager/prompt/prompt.go
+  h_004cd95484b0ae 19,21,23-24,47,97-100,133-140,339,341
+backend/internal/session_manager/prompt/prompt_test.go
+  h_004cd95484b0ae 50-53,215-241
+backend/internal/session_manager/provision_test.go
+  h_004cd95484b0ae 111-162
+backend/internal/session_manager/status_readiness.go
+  h_004cd95484b0ae 1-98
+backend/internal/session_manager/status_readiness_test.go
+  h_004cd95484b0ae 1,7,9,13-23,26-27,29-30,32-34,37-38,40-41,45-48,51-54,57-75,77-78,80-81,85-88,90-93,96-112,114-120,124-131,135-139,141-145,147,149-150,154-157,159-165,167-168,170-171
+backend/internal/skillassets/using-ao/SKILL.md
+  h_004cd95484b0ae 13
+backend/internal/skillassets/using-ao/commands/review.md
+  h_004cd95484b0ae 35-40
+backend/internal/skillassets/using-ao/commands/spawn.md
+  h_004cd95484b0ae 3-4,22-23
+backend/internal/storage/sqlite/db.go
+  h_004cd95484b0ae 235-237,1351-1438,1567-1571
+backend/internal/storage/sqlite/gen/changelog.sql.go
+  h_004cd95484b0ae 10,24-70
+backend/internal/storage/sqlite/gen/conversations.sql.go
+  h_004cd95484b0ae 16-100,362-389,738,860-885,963-1011,1245-1310,1438-1487,1870,1909,1915,1954,2144-2178,2522-2538,2591-2622,2982,2985,3021,3629,3637,3651
+backend/internal/storage/sqlite/gen/models.go
+  h_004cd95484b0ae 154,207,237,278-296,326-345,392,446,518-528,551,651
+backend/internal/storage/sqlite/gen/notifications.sql.go
+  h_004cd95484b0ae 53
+backend/internal/storage/sqlite/gen/pr.sql.go
+  h_004cd95484b0ae 205,255,261,322,328,383,733,791,978,980,996-1003,1007-1021,1038-1039,1053,1055,1105-1113,1158,1205
+backend/internal/storage/sqlite/gen/projects.sql.go
+  h_004cd95484b0ae 131
+backend/internal/storage/sqlite/gen/review.sql.go
+  h_004cd95484b0ae 75,79-93,95,104-105,113,117-131,133,142-143,151,160-174,176,185-186,564,568-582,588,590,599-600,702-739,786-787,793-794,799-809,821-822
+backend/internal/storage/sqlite/gen/sessions.sql.go
+  h_004cd95484b0ae 44,56,58,125,242,352,475,480,525,597,604-614,684-694,865-874,892
+backend/internal/storage/sqlite/gen/shell_terminals.sql.go
+  h_004cd95484b0ae 44-46,57,69,80,85-122,124,140,146,169,185,208,224,247,266,285
+backend/internal/storage/sqlite/migrate_burned_versions_test.go
+  h_004cd95484b0ae 136-147
+backend/internal/storage/sqlite/migrate_pr_review_partial_test.go
+  h_004cd95484b0ae 1-143
+backend/internal/storage/sqlite/migrate_shell_terminal_lifetime_test.go
+  h_004cd95484b0ae 1-28
+backend/internal/storage/sqlite/migrations/0129_change_log_retention_index.sql
+  h_004cd95484b0ae 1-11
+backend/internal/storage/sqlite/migrations/0130_pr_review_partial.sql
+  h_004cd95484b0ae 1-12
+backend/internal/storage/sqlite/migrations/0131_repair_intermediate_pr_review_certainty.sql
+  h_004cd95484b0ae 1-20
+backend/internal/storage/sqlite/migrations/0132_conversation_opencode_mode.sql
+  h_004cd95484b0ae 1-5
+backend/internal/storage/sqlite/migrations/0133_shell_terminal_lifetime.sql
+  h_004cd95484b0ae 1-7
+backend/internal/storage/sqlite/migrations/0134_review_activity_state.sql
+  h_004cd95484b0ae 1-9
+backend/internal/storage/sqlite/migrations/0135_review_launch_id.sql
+  h_004cd95484b0ae 1-9
+backend/internal/storage/sqlite/migrations/0136_conversation_queued_edit_delivery.sql
+  h_004cd95484b0ae 1-15
+backend/internal/storage/sqlite/migrations/0137_conversation_edit_delivery.sql
+  h_004cd95484b0ae 1-29
+backend/internal/storage/sqlite/migrations/0138_conversation_edit_dispatch_boundary.sql
+  h_004cd95484b0ae 1-7
+backend/internal/storage/sqlite/migrations/0139_conversation_steer_delivery.sql
+  h_004cd95484b0ae 1-24
+backend/internal/storage/sqlite/migrations/0140_standalone_sessions.sql
+  h_004cd95484b0ae 1-107
+backend/internal/storage/sqlite/queries/changelog.sql
+  h_004cd95484b0ae 9-29
+backend/internal/storage/sqlite/queries/conversations.sql
+  h_004cd95484b0ae 345,1383-1493
+backend/internal/storage/sqlite/queries/pr.sql
+  h_004cd95484b0ae 9,11,61-69,74,76,92-99
+backend/internal/storage/sqlite/queries/review.sql
+  h_004cd95484b0ae 2-3,9-10,14,18,22,26,38-46
+backend/internal/storage/sqlite/queries/sessions.sql
+  h_004cd95484b0ae 4-9,43,45,81,83,131
+backend/internal/storage/sqlite/queries/shell_terminals.sql
+  h_004cd95484b0ae 3-4,43-47
+backend/internal/storage/sqlite/sqlc_config_test.go
+  h_004cd95484b0ae 1-59
+backend/internal/storage/sqlite/standalone_migration_test.go
+  h_004cd95484b0ae 1-136
+backend/internal/storage/sqlite/store/agent_switching_store.go
+  h_004cd95484b0ae 572-573
+backend/internal/storage/sqlite/store/agent_switching_store_test.go
+  h_004cd95484b0ae 363-458
+backend/internal/storage/sqlite/store/changelog_retention_test.go
+  h_004cd95484b0ae 1-97
+backend/internal/storage/sqlite/store/changelog_store.go
+  h_004cd95484b0ae 7,35-64,68
+backend/internal/storage/sqlite/store/conversation_branch_store_test.go
+  h_004cd95484b0ae 8,443-606
+backend/internal/storage/sqlite/store/conversation_history_store_test.go
+  h_004cd95484b0ae 43,643,654,1234,1277
+backend/internal/storage/sqlite/store/conversation_store.go
+  h_004cd95484b0ae 103,195,1254,1863,1869,1873-1907,2948,2955,3241-3567
+backend/internal/storage/sqlite/store/notification_store.go
+  h_004cd95484b0ae 35,292
+backend/internal/storage/sqlite/store/pr_review_partial_test.go
+  h_004cd95484b0ae 1-93
+backend/internal/storage/sqlite/store/pr_store.go
+  h_004cd95484b0ae 592,599-613,696
+backend/internal/storage/sqlite/store/project_store.go
+  h_004cd95484b0ae 334
+backend/internal/storage/sqlite/store/review_store.go
+  h_004cd95484b0ae 21-31,103-104,108-132,320-333,336-349,352-365,368,370-380
+backend/internal/storage/sqlite/store/review_store_test.go
+  h_004cd95484b0ae 203,245,247,256-258,266-307
+backend/internal/storage/sqlite/store/session_store.go
+  h_004cd95484b0ae 17-19,24-32,36-46,63,407,442,507
+backend/internal/storage/sqlite/store/shell_terminal_store.go
+  h_004cd95484b0ae 27,73-74,132-138,155,174-183
+backend/internal/storage/sqlite/store/shell_terminal_store_test.go
+  h_004cd95484b0ae 217-249
+backend/internal/storage/sqlite/store/store_test.go
+  h_004cd95484b0ae 298,314,318,517-628,1821-1842
+backend/internal/terminal/manager.go
+  h_004cd95484b0ae 35-39,343,345,369,371,531-550,552,557-589,595-600
+backend/internal/terminal/manager_test.go
+  h_004cd95484b0ae 6-7,667-669,671-673,676-746,748,750
+backend/pkg/agentruntime/command.go
+  h_004cd95484b0ae 244-247
+backend/pkg/agentruntime/command_test.go
+  h_004cd95484b0ae 126-141
+backend/pkg/contract/scm.go
+  h_004cd95484b0ae 117-126
+backend/sqlc.yaml
+  h_004cd95484b0ae 24,68,101,279
+cloud/.env.example
+  h_004cd95484b0ae 26-28,30-35,65-80
+cloud/Dockerfile
+  h_004cd95484b0ae 29
+cloud/README.md
+  h_004cd95484b0ae 201-206,246
+cloud/cmd/ao-cloud-agent/main.go
+  h_004cd95484b0ae 39-59,111-112,198,202-203,206-209,211,219-220,222-224,230-280,305-320,435-436,438,440,442-444
+cloud/cmd/ao-cloud/main.go
+  h_004cd95484b0ae 24,77-85,98-101,103-106,108-111,113-159,162,175-206,324-338,369-375,377-399,407-410,412-416
+cloud/cmd/ao-worker/main.go
+  h_004cd95484b0ae 32,84-86,97-101,112-119,121,124,126-127,130,138-142,176-178,182-186,206,216-234,248-344,377-444,628-636
+cloud/cmd/ao-worker/selfupdate.go
+  h_004cd95484b0ae 1-206
+cloud/cmd/ao-worker/selfupdate_test.go
+  h_004cd95484b0ae 1-147
+cloud/cmd/ao-worker/waitforwork_test.go
+  h_004cd95484b0ae 1-37
+cloud/compose.override.yaml
+  h_004cd95484b0ae 1-13
+cloud/docs/coder-sandbox-provider.md
+  h_004cd95484b0ae 1-199
+cloud/docs/control-plane.md
+  h_004cd95484b0ae 58-74,97-101
+cloud/docs/deployment.md
+  h_004cd95484b0ae 18-26,95,112-123,207-208,248,252-254
+cloud/internal/config/config.go
+  h_004cd95484b0ae 8,12,26-50,104-112,163-168,233-245,341,343-404,406-417,419-423,426,430-431,452,454,457,574-576,622-667
+cloud/internal/config/providers_test.go
+  h_004cd95484b0ae 1-73
+cloud/internal/domain/provider.go
+  h_004cd95484b0ae 32-40
+cloud/internal/domain/sandbox.go
+  h_004cd95484b0ae 73-74,76-79,85-98,131-138
+cloud/internal/domain/types.go
+  h_004cd95484b0ae 73-75,111-116
+cloud/internal/githubapp/client.go
+  h_004cd95484b0ae 176-197
+cloud/internal/githubapp/pat_write.go
+  h_004cd95484b0ae 1-157
+cloud/internal/githubapp/pat_write_test.go
+  h_004cd95484b0ae 1-195
+cloud/internal/httpapi/auth_handlers.go
+  h_004cd95484b0ae 186-191
+cloud/internal/httpapi/provider_handlers.go
+  h_004cd95484b0ae 17-18,80-83,234-291
+cloud/internal/httpapi/resource_handlers.go
+  h_004cd95484b0ae 4,8,18-25,59-62,78-80,93-148,320,364-399,403,431,495-557,699-701
+cloud/internal/httpapi/resource_handlers_autolink_test.go
+  h_004cd95484b0ae 1-144
+cloud/internal/httpapi/resource_handlers_test.go
+  h_004cd95484b0ae 1-19
+cloud/internal/httpapi/server.go
+  h_004cd95484b0ae 9,62,77,81-82,103,138-143,157,165-169,173-197,209-218,242-268,270,318-319,331-335,339-342,359,361-364,403-405
+cloud/internal/httpapi/terminal_handlers.go
+  h_004cd95484b0ae 33-34,123-130,164-167,172,185-208,377-384
+cloud/internal/httpapi/work_stream.go
+  h_004cd95484b0ae 1-104
+cloud/internal/httpapi/work_stream_test.go
+  h_004cd95484b0ae 1-86
+cloud/internal/httpapi/worker_handlers.go
+  h_004cd95484b0ae 5-6,10,23-75,80,146,173-218,222-275,370-373,405-408,443-446,497,502-517,566-578,726
+cloud/internal/httpapi/worker_handlers_test.go
+  h_004cd95484b0ae 1-72
+cloud/internal/httpapi/worker_orchestration_handlers.go
+  h_004cd95484b0ae 4,13-20,45-47,49,55,68-93,162-183,263-296
+cloud/internal/httpapi/worker_orchestration_handlers_test.go
+  h_004cd95484b0ae 1-538
+cloud/internal/httpapi/worker_pat_write_test.go
+  h_004cd95484b0ae 1-179
+cloud/internal/httpapi/worker_selfupdate_test.go
+  h_004cd95484b0ae 1-126
+cloud/internal/httpapi/workspace_handlers.go
+  h_004cd95484b0ae 154-159
+cloud/internal/postgres/event_store.go
+  h_004cd95484b0ae 9,15,91-94,98-102,104-105,263-267,275,288,296,312-317,336-341
+cloud/internal/postgres/migrations/00032_browser_fetch_requests.sql
+  h_004cd95484b0ae 1-25
+cloud/internal/postgres/migrations/00033_sandbox_startup_attempts.sql
+  h_004cd95484b0ae 1-11
+cloud/internal/postgres/migrations/00036_coder_sandbox_provider.sql
+  h_004cd95484b0ae 1-22
+cloud/internal/postgres/orchestrator_store.go
+  h_004cd95484b0ae 6-7,16,30-31,33-35,60-85,161-211
+cloud/internal/postgres/project_session_store.go
+  h_004cd95484b0ae 299,306-339,666,852-904,935-937,998-1000
+cloud/internal/postgres/pull_request_store.go
+  h_004cd95484b0ae 257-297
+cloud/internal/postgres/sandbox_store.go
+  h_004cd95484b0ae 34,55-74,84,211-293,407-449,546,834,852,955,1048-1058,1155-1182,1198,1202
+cloud/internal/postgres/worker_checkout_store.go
+  h_004cd95484b0ae 74-131
+cloud/internal/postgres/worker_transport_store.go
+  h_004cd95484b0ae 11,23,25,27-37,125-133,357-388,399-401,406,437,473-474,483-484,490,622,669,761-791,938-942
+cloud/internal/postgres/worker_turn_store.go
+  h_004cd95484b0ae 59-67
+cloud/internal/reconcile/reconciler.go
+  h_004cd95484b0ae 8-9,29,35,113-120,138-141,152-164,218-225,521-524,527-528,540-546,551-552,560-576,647-679,811-813,829-841,847,849-851,894-896,960,1050-1052,1084-1086,1093-1096,1105-1141,1143-1150,1165,1178-1182,1191-1201,1212,1222-1241
+cloud/internal/reconcile/reconciler_test.go
+  h_004cd95484b0ae 1-411
+cloud/internal/sandbox/coder/client.go
+  h_004cd95484b0ae 1-896
+cloud/internal/sandbox/coder/client_test.go
+  h_004cd95484b0ae 1-1123
+cloud/internal/sandbox/coder/live_test.go
+  h_004cd95484b0ae 1-248
+cloud/internal/sandbox/createos/client.go
+  h_004cd95484b0ae 13,79,97,106-109,119,319-324,343-348,431-439,443,447-449,461,464-465,468-473
+cloud/internal/sandbox/provider.go
+  h_004cd95484b0ae 6,24-35,44-57,68-74,113-117
+cloud/internal/sandbox/provisioning.go
+  h_004cd95484b0ae 8,18,57-215,262,276-288,342-364
+cloud/internal/sandbox/provisioning_test.go
+  h_004cd95484b0ae 1-163
+cloud/internal/sandboxresolve/resolver.go
+  h_004cd95484b0ae 17-21,25-26,55-66
+cloud/internal/sandboxresolve/resolver_test.go
+  h_004cd95484b0ae 1-47
+cloud/internal/skillassets/skillassets.go
+  h_004cd95484b0ae 1-72
+cloud/internal/skillassets/skillassets_test.go
+  h_004cd95484b0ae 1-75
+cloud/internal/skillassets/using-ao/SKILL.md
+  h_004cd95484b0ae 1-38
+cloud/internal/skillassets/using-ao/commands/orchestration.md
+  h_004cd95484b0ae 1-84
+cloud/internal/skillassets/using-ao/commands/pull-requests.md
+  h_004cd95484b0ae 1-36
+cloud/internal/worker/checkout.go
+  h_004cd95484b0ae 30-35,83-86,91-98,117-158
+cloud/internal/worker/protocol.go
+  h_004cd95484b0ae 14-28
+cloud/internal/worker/terminal_input.go
+  h_004cd95484b0ae 1-19
+cloud/internal/worker/terminal_input_test.go
+  h_004cd95484b0ae 1-34
+cloud/internal/workerexec/command.go
+  h_004cd95484b0ae 15,72-73,75-81,459-461,477-487
+cloud/internal/workerexec/command_test.go
+  h_004cd95484b0ae 1,9-10,13-18,20-21,23-29,33-34,36-37,39-40,44-57,61-65,69-72,75,78-82,84-86,88,90-92,94-95,98-105,107,110-129,132-134,139-159,163-170,172-173,177-186
+cloud/internal/workerexec/prompts.go
+  h_004cd95484b0ae 1-109
+cloud/internal/workertransport/supervisor.go
+  h_004cd95484b0ae 22-25,34-38,53-87,159-174,179-204,206-215,224,282-286,447-471,477-481
+cloud/scripts/cloud-staging.sh
+  h_004cd95484b0ae 59-62
+cloud/scripts/deploy-staging.sh
+  h_004cd95484b0ae 13,15,22,24,48-51,75-83,85,96,98-103,215,233-256
+cloud/scripts/lib/deployment.py
+  h_004cd95484b0ae 7-8,40-49,57-63,81-84,86-91,111-164,207,234-235,245,256,272,276-279,285,345-347,351-354,359-371
+cloud/scripts/promote-production.sh
+  h_004cd95484b0ae 18,62-85,144-146,160,199-207,209,220,222-225,245-295
+cloud/scripts/render-task-definition.py
+  h_004cd95484b0ae 31-33,49
+cloud/scripts/test-cloud-local.sh
+  h_004cd95484b0ae 303,305,308-310,511-530,543-544,546-591,593-604,610-611
+cloud/scripts/tests/test_deployment.py
+  h_004cd95484b0ae 9,33-40,63-78,258-297,322-343
+cloud/scripts/validate-hosted-settings.py
+  h_004cd95484b0ae 19-21,24-30
+contracts/cloud/openapi.yaml
+  h_004cd95484b0ae 431-453,1085-1087,1091-1096,1103,1209-1248,2920-2966
+desktop-version-floor.json
+  h_004cd95484b0ae 1-5
+docs/README.md
+  h_004cd95484b0ae 15
+docs/STATUS.md
+  h_004cd95484b0ae 46-47,50-61,104-107
+docs/adr/0003-persistent-chat-provider-host.md
+  h_004cd95484b0ae 4,22,52,55-109,112-117,121-135,137-141,145-148,151-153,155-156
+docs/architecture.md
+  h_004cd95484b0ae 3,92,199,216,258-263,298-300,302,308,326-328,474-475,487-488,500,514,1054
+docs/cli/README.md
+  h_004cd95484b0ae 49,77-80,128-130,236-253
+docs/development.md
+  h_004cd95484b0ae 18,267-281
+docs/documentation-map.md
+  h_004cd95484b0ae 1-76
+docs/harnesses/omp.md
+  h_004cd95484b0ae 95-97
+docs/onboarding-contract-review.md
+  h_004cd95484b0ae 1-112
+docs/research/persistent-acp-chat-hosts.md
+  h_004cd95484b0ae 1-118
+docs/superpowers/specs/2026-08-28-agent-switch-failure-observability-design.md
+  h_004cd95484b0ae 527-534
+docs/telemetry.md
+  h_004cd95484b0ae 64-65,192
+frontend/.gitignore
+  h_004cd95484b0ae 3
+frontend/docs/desktop-release.md
+  h_004cd95484b0ae 92-170
+frontend/e2e/browser-address-centering.spec.ts
+  h_004cd95484b0ae 1-46
+frontend/e2e/chat-queued-attachments.spec.ts
+  h_004cd95484b0ae 24,30,70-75,89-93,136,142-148,158-160,166-167
+frontend/e2e/clone-preparation-lifecycle.spec.ts
+  h_004cd95484b0ae 6-11,13-54,56-61,63-70,72-78,80-87,89-93,95
+frontend/e2e/resize-clamp.spec.ts
+  h_004cd95484b0ae 34,68
+frontend/e2e/support/fake-bridge.ts
+  h_004cd95484b0ae 56,58-62,97,149-150,264,269-274,303-305,374-377,381,397-398,401,650,699-700,843
+frontend/e2e/updates-settings.spec.ts
+  h_004cd95484b0ae 58-59,63,65,71,73,78,80-83
+frontend/forge.config.test.ts
+  h_004cd95484b0ae 89-102
+frontend/forge.config.ts
+  h_004cd95484b0ae 66,170-174,209-210
+frontend/native/repair-installer/guard.sh
+  h_004cd95484b0ae 1-64
+frontend/native/update-helper/StateTests.swift
+  h_004cd95484b0ae 1-56
+frontend/native/update-helper/UpdateProgressState.swift
+  h_004cd95484b0ae 1-105
+frontend/native/update-helper/main.swift
+  h_004cd95484b0ae 1-190
+frontend/package-lock.json
+  h_004cd95484b0ae 3,9,19,4630-4704,6866-6978,13162-13184,13324-13333,14758-14763,16605-16621,17981-18004,18532-18550
+frontend/package.json
+  h_004cd95484b0ae 4,23,45,76
+frontend/scripts/build-mac-repair-installer.mjs
+  h_004cd95484b0ae 1-130
+frontend/scripts/build-mac-repair-installer.node-test.mjs
+  h_004cd95484b0ae 1-152
+frontend/scripts/build-update-helper.mjs
+  h_004cd95484b0ae 1-42
+frontend/scripts/build-update-helper.node-test.mjs
+  h_004cd95484b0ae 1-21
+frontend/scripts/verify-mac-artifact.sh
+  h_004cd95484b0ae 3,59,65-66,72-73,112-117,125,188-206
+frontend/scripts/verify-mac-artifact.test.mjs
+  h_004cd95484b0ae 127-157
+frontend/src/api/schema.ts
+  h_004cd95484b0ae 2097-2113,2140-2141,2166-2182,2200-2216,2911,2935,2939,2944-2945,3279,3464-3465,3494,3965,4078,4121,4166,4223,4300,4325-4329,4366,4372-4403,4417-4418,4427-4459,4471-4472,12075-12146,12204-12205,12263-12334,12401-12481,12510-12575
+frontend/src/landing/DEPLOYMENT.md
+  h_004cd95484b0ae 1-116
+frontend/src/landing/cloudflare/cloud-waitlist-worker.ts
+  h_004cd95484b0ae 19,73-96,106,111-116,171-180,189-190,194
+frontend/src/landing/cloudflare/domain-redirect-worker.mjs
+  h_004cd95484b0ae 1-23
+frontend/src/landing/cloudflare/domain-redirect-worker.test.mjs
+  h_004cd95484b0ae 1-24,27-41
+frontend/src/landing/cloudflare/domain-redirect.wrangler.toml
+  h_004cd95484b0ae 1-34
+frontend/src/landing/cloudflare/testimonial-submissions-worker.ts
+  h_004cd95484b0ae 20
+frontend/src/landing/content/changelog/agent-orchestrator-0-12-0.mdx
+  h_004cd95484b0ae 1-99
+frontend/src/landing/content/changelog/agent-orchestrator-0-13-0.mdx
+  h_004cd95484b0ae 1-111
+frontend/src/landing/content/compare/ao-vs-agentsmesh.mdx
+  h_004cd95484b0ae 21
+frontend/src/landing/content/compare/ao-vs-conductor.mdx
+  h_004cd95484b0ae 21
+frontend/src/landing/content/compare/ao-vs-emdash.mdx
+  h_004cd95484b0ae 21
+frontend/src/landing/content/compare/ao-vs-superset.mdx
+  h_004cd95484b0ae 21
+frontend/src/landing/content/docs/configuration/projects.mdx
+  h_004cd95484b0ae 110-352
+frontend/src/landing/content/docs/plugins/agents/index.mdx
+  h_004cd95484b0ae 10,20
+frontend/src/landing/packages/shared/src/constants.ts
+  h_004cd95484b0ae 4-5,9,11
+frontend/src/landing/public/cli/install.sh
+  h_004cd95484b0ae 5
+frontend/src/landing/src/app/api/cloud-waitlist/route.ts
+  h_004cd95484b0ae 12-35,39,98,103-108,150-156,166-167,171
+frontend/src/landing/src/app/components/Footer/Footer.tsx
+  h_004cd95484b0ae 62-66,106
+frontend/src/landing/src/app/hackathons/page.tsx
+  h_004cd95484b0ae 31
+frontend/src/landing/src/app/hackathons/syndicate/page.tsx
+  h_004cd95484b0ae 8,48
+frontend/src/landing/src/app/hooks/useOS/useOS.test.ts
+  h_004cd95484b0ae 1-24
+frontend/src/landing/src/app/hooks/useOS/useOS.ts
+  h_004cd95484b0ae 21-34,53
+frontend/src/landing/src/app/layout.tsx
+  h_004cd95484b0ae 74
+frontend/src/landing/src/app/privacy/page.tsx
+  h_004cd95484b0ae 7,29,189,375,434-436
+frontend/src/landing/src/app/testimonials/TestimonialForm.tsx
+  h_004cd95484b0ae 13
+frontend/src/landing/src/app/waitlist/CloudWaitlistForm.tsx
+  h_004cd95484b0ae 11,14,23-24,60,65-71,135-161
+frontend/src/landing/src/app/waitlist/page.tsx
+  h_004cd95484b0ae 94-95
+frontend/src/landing/src/lib/analytics/launch/README.md
+  h_004cd95484b0ae 11,110-116
+frontend/src/landing/src/lib/analytics/launch/context.test.ts
+  h_004cd95484b0ae 37,120-122,125,133,150,159,200,217
+frontend/src/landing/src/lib/analytics/launch/utm.test.ts
+  h_004cd95484b0ae 8,14,19,31,62
+frontend/src/landing/src/lib/analytics/marketing-consent.test.ts
+  h_004cd95484b0ae 23,26,37,39,48
+frontend/src/landing/src/lib/llms.ts
+  h_004cd95484b0ae 37,74
+frontend/src/main.ts
+  h_004cd95484b0ae 1-2,29-30,87-97,131,308-311,342,661-687,797-800,804-810,1087-1088,1990-2005,2100,2102-2103,2105-2106,2119-2126,2325,2457-2467,2616,2625-2630,2654,2758-2762,2764-2775,2783,2786-2787,2791-2800
+frontend/src/main/app-state.test.ts
+  h_004cd95484b0ae 52-60
+frontend/src/main/app-state.ts
+  h_004cd95484b0ae 22-23,40,111
+frontend/src/main/auto-updater.test.ts
+  h_004cd95484b0ae 5,23,95-109,112-115,142,180-181,250-398,532-633,1169-1233,2942-2966,2968-2977,2979-2992,2994-3013,3015-3018,3024-3025,3027-3032,3034,3040-3049,3051,3054-3055,3058,3063,3067-3071,3073-3091,3093-3116,3119-3120,3122-3148,3150-3164,3166-3179,3182,3185-3199,3201-3217,3219-3222,3224-3250,3256,3316-3336,3904,3920,3922-3923,3925-3931,4005,4011,4015,4030,4034,4037,4039-4040,4043
+frontend/src/main/auto-updater.ts
+  h_004cd95484b0ae 4,18,100-158,183,423-427,441-442,444,451,456-462,603,623-627,637-638,645-647,757-758,763,771-800,814,882-883,904-906,922,958-961,970,972-981,983,1094,1098-1121,1381-1382,1385-1400,1402-1404,1499-1500,1537-1540,1793,1828,1986,2088,2241,2257-2268,2271-2286,2289-2403
+frontend/src/main/browser-profile-import.test.ts
+  h_004cd95484b0ae 2-3,16,140-239,241-448
+frontend/src/main/browser-profile-import.ts
+  h_004cd95484b0ae 8,50,71-72,109,194-203,252,255,258-259,264-275,351-438,442-444,449-450,462,509-511,514,520-522,524-531,770-774,778-782,793-795,802-804,812-844,852-853,1015-1102,1198-1230,1249,1288-1299
+frontend/src/main/browser-runtime-link.test.ts
+  h_004cd95484b0ae 139,185-204,208-311
+frontend/src/main/browser-runtime-link.ts
+  h_004cd95484b0ae 54-72,75-80,95,97-99,125-145,158-165,174,204,267-270,272,276-279
+frontend/src/main/browser-view-host.test.ts
+  h_004cd95484b0ae 197,659
+frontend/src/main/chat-draft-unload.test.ts
+  h_004cd95484b0ae 1-30
+frontend/src/main/chat-draft-unload.ts
+  h_004cd95484b0ae 1-38
+frontend/src/main/cloud-auth.test.ts
+  h_004cd95484b0ae 21,56,59,72,265-277
+frontend/src/main/cloud-auth.ts
+  h_004cd95484b0ae 321-327,365-366,372,374,376-380
+frontend/src/main/daemon-telemetry-policy-client.test.ts
+  h_004cd95484b0ae 42-60
+frontend/src/main/daemon-telemetry-policy-client.ts
+  h_004cd95484b0ae 11-14,27,34
+frontend/src/main/desktop-telemetry-controller.test.ts
+  h_004cd95484b0ae 5-7,202-478,486,489
+frontend/src/main/desktop-telemetry-controller.ts
+  h_004cd95484b0ae 1-2,4-11,37-38,46,77,84-85,101-106,188,209,219,226-235
+frontend/src/main/desktop-version-floor.test.ts
+  h_004cd95484b0ae 1-135
+frontend/src/main/desktop-version-floor.ts
+  h_004cd95484b0ae 1-93
+frontend/src/main/editor-handoff.test.ts
+  h_004cd95484b0ae 22,27-29,33,52-123,175-177,189-191,206,222,249
+frontend/src/main/editor-handoff.ts
+  h_004cd95484b0ae 16,24,42,66,108-111,113,128,142,149-205,218,232,247-253,262,267-272,286-289,295-298,301-302,306,378
+frontend/src/main/launch-command.test.ts
+  h_004cd95484b0ae 60-77
+frontend/src/main/launch-command.ts
+  h_004cd95484b0ae 16-20
+frontend/src/main/mac-update-progress.test.ts
+  h_004cd95484b0ae 1-73
+frontend/src/main/mac-update-progress.ts
+  h_004cd95484b0ae 1-118
+frontend/src/main/menu.test.ts
+  h_004cd95484b0ae 68
+frontend/src/main/telemetry-policy-file.test.ts
+  h_004cd95484b0ae 30,33,38-70
+frontend/src/main/telemetry-policy-file.ts
+  h_004cd95484b0ae 6,55,64,71-72,89-90,101-102,114-115,127,133,136,141-148,161
+frontend/src/main/update-quit.test.ts
+  h_004cd95484b0ae 1-34
+frontend/src/main/update-quit.ts
+  h_004cd95484b0ae 1-21
+frontend/src/main/update-settings.ts
+  h_004cd95484b0ae 4-10
+frontend/src/main/window-composition.test.ts
+  h_004cd95484b0ae 107-151
+frontend/src/main/window-composition.ts
+  h_004cd95484b0ae 99-104
+frontend/src/preload.test.ts
+  h_004cd95484b0ae 3,227-236
+frontend/src/preload.ts
+  h_004cd95484b0ae 3-7,39,173,240-242,571
+frontend/src/renderer/__tests__/_shell-index-home.test.tsx
+  h_004cd95484b0ae 3-8,69-81,154-193
+frontend/src/renderer/__tests__/integration/board-empty-states.test.tsx
+  h_004cd95484b0ae 2,20,29-35,75,79-81,190-192,212,258,461,525-537,630-738
+frontend/src/renderer/components/AppLink.test.tsx
+  h_004cd95484b0ae 1-57
+frontend/src/renderer/components/AppLink.tsx
+  h_004cd95484b0ae 1-62
+frontend/src/renderer/components/BoardEmptyStates.tsx
+  h_004cd95484b0ae 1,7-8,14,21,28,37-38,41,45
+frontend/src/renderer/components/BrowserPanel.test.tsx
+  h_004cd95484b0ae 368,380-393,454,532,534,538,627,640,644-645,705,716-718,721,733-734,737,756,832,836,839,910,918-919,924,928-929,931,934,936-937,940,950,952-954,957,977-978,980,983,987-988,995-996
+frontend/src/renderer/components/BrowserPanel.tsx
+  h_004cd95484b0ae 12,44,58,148-149,317,338,349,402-447,687-688,727-825,829,849-854,856,868-869,881-882,887,896,911-914,931,944,952,957,964,990,994,1000-1002,1114-1127,1171-1176,1181-1182,1187-1196,1261,1291,1321,1374-1386
+frontend/src/renderer/components/BrowserProfileButton.test.tsx
+  h_004cd95484b0ae 35
+frontend/src/renderer/components/CenterPane.tsx
+  h_004cd95484b0ae 78-79,162,640,938-939,956,996-998
+frontend/src/renderer/components/CloneRepositoryDialog.test.ts
+  h_004cd95484b0ae 31,36-69,73,140,266
+frontend/src/renderer/components/CloneRepositoryDialog.tsx
+  h_004cd95484b0ae 66,169-172,204-208,212,311-337
+frontend/src/renderer/components/CommandPalette.test.tsx
+  h_004cd95484b0ae 1,23,186,191-195,256,274-285,652-654,774-778,827-831
+frontend/src/renderer/components/CommandPalette.tsx
+  h_004cd95484b0ae 4,27-33,42-43,79-82,97,100,102-112,116,118,142,154-155,164,166,213-227,330-332,347-355,367,378,391,394,458,467,480,496,498,549-554,556-557,692-703
+frontend/src/renderer/components/CreateProjectFlow.test.tsx
+  h_004cd95484b0ae 143,264-275,369-379,597,655,1105-1106,1109-1111,1133-1170,1215,1219-1226,1228-1258,1261-1262,1268
+frontend/src/renderer/components/CreateProjectFlow.tsx
+  h_004cd95484b0ae 1,11,17,20,102,136,156,494-506,740,760,1107,1120,1150,1438,1444,1448-1451,1508-1513,1577-1587,1687,1825-1839,1843-1845,1847-1853,2090
+frontend/src/renderer/components/DiffSelectionMenu.tsx
+  h_004cd95484b0ae 26-28,45-47,103,126
+frontend/src/renderer/components/FileContentPane.test.tsx
+  h_004cd95484b0ae 2,8,10-14,17,25-34,37,47,51,74,101,106-398,417,425,449
+frontend/src/renderer/components/FileContentPane.tsx
+  h_004cd95484b0ae 1-2,4-17,20,27-40,44-48,52,55-59,63,66-74,77,80-138,163-267,269,276,283-349,353
+frontend/src/renderer/components/FileTree.test.tsx
+  h_004cd95484b0ae 129-136,144-146
+frontend/src/renderer/components/FileTree.tsx
+  h_004cd95484b0ae 10,15,96,98-102,149-153,157,160-161,171,177
+frontend/src/renderer/components/GlobalNewTaskDialog.tsx
+  h_004cd95484b0ae 7,36-40
+frontend/src/renderer/components/GlobalSettingsForm.test.tsx
+  h_004cd95484b0ae 169-170,183,221-222,225,231-232,266-267,273-293,377,381-383,400-401,420,424,447-474,496,498,518,547,550,568,600,609,623,634,661-663,665,696-698,705,709,723,726,745,748,788,794,796
+frontend/src/renderer/components/HomePage.tsx
+  h_004cd95484b0ae 4,13-18,60-78,142,188-195,243-252,268
+frontend/src/renderer/components/IntakeFields.tsx
+  h_004cd95484b0ae 1,38-41,43,141,148,208,215
+frontend/src/renderer/components/NewTaskDialog.tsx
+  h_004cd95484b0ae 4,23-25
+frontend/src/renderer/components/NotificationCenter.tsx
+  h_004cd95484b0ae 1,549,562
+frontend/src/renderer/components/OrchestratorChildrenSection.test.tsx
+  h_004cd95484b0ae 1-119
+frontend/src/renderer/components/OrchestratorChildrenSection.tsx
+  h_004cd95484b0ae 1-3,5,7-18,20-23,25-33,35-57,59-61,63,67,69-70,73-77,80-81,84-91,93-99,104,106-107,109-113,115-117
+frontend/src/renderer/components/ProductExternalLink.tsx
+  h_004cd95484b0ae 1,11,20
+frontend/src/renderer/components/ProjectBoardActions.tsx
+  h_004cd95484b0ae 1-80
+frontend/src/renderer/components/ProjectSettingsForm.test.tsx
+  h_004cd95484b0ae 1149,1168,1530-1571
+frontend/src/renderer/components/ProjectSettingsForm.tsx
+  h_004cd95484b0ae 252
+frontend/src/renderer/components/ReadOnlyFileView.test.tsx
+  h_004cd95484b0ae 2,6,9-25,29-32,52-53,55-57,60,63,68-97,103,114,119
+frontend/src/renderer/components/ReadOnlyFileView.tsx
+  h_004cd95484b0ae 1,3-4,6-10,18-19,26-42,44-47,55,65-91,93-131
+frontend/src/renderer/components/RestartToUpdateDialog.test.tsx
+  h_004cd95484b0ae 1,37,68-82,99,104-113,120-133,142-276
+frontend/src/renderer/components/RestartToUpdateDialog.tsx
+  h_004cd95484b0ae 1,48-67,85-113,117-128,163,167,173-184,188,191-192
+frontend/src/renderer/components/ReviewerSelect.tsx
+  h_004cd95484b0ae 33
+frontend/src/renderer/components/SessionActionsMenu.tsx
+  h_004cd95484b0ae 22-27,29-46
+frontend/src/renderer/components/SessionFileExplorer.test.tsx
+  h_004cd95484b0ae 4,32-34,37-38,42-43,47-60,77-89,93-96,106-107,110,112-113,115-116,119-120,123-124,126,134,142-144,149,168,172-174,176-233,235-238
+frontend/src/renderer/components/SessionFileExplorer.tsx
+  h_004cd95484b0ae 1-2,11-16,25-27,32-33,36,43,46,50-51,54-55,57,62,68-69,76,78-79,81-85,89-93,98,110-126,128-132,134,136,138-165,188-206,212,223,228-237
+frontend/src/renderer/components/SessionFileTabs.test.tsx
+  h_004cd95484b0ae 29-30,45-63
+frontend/src/renderer/components/SessionFileTabs.tsx
+  h_004cd95484b0ae 4,18,24,32,46,53,66-71,78-80,106-107,121,123-127
+frontend/src/renderer/components/SessionFileWorkspace.test.tsx
+  h_004cd95484b0ae 6-8,23,26-56
+frontend/src/renderer/components/SessionFileWorkspace.tsx
+  h_004cd95484b0ae 1,4-5,9-14,17-18,21-26,29-30,33-42,44-51,53-64
+frontend/src/renderer/components/SessionInspector.test.tsx
+  h_004cd95484b0ae 27,183,211,237,239,620-666,1200-1238,2117,2215,3452,3549,3562-3606
+frontend/src/renderer/components/SessionInspector.tsx
+  h_004cd95484b0ae 1,46,58,61,80,146,165,176,234,239-248,262,301-304,333,1111,1125-1128,1134-1166,1172,1223,1381,1391,1676,2057,2059,2142,2167,2231,2357,2487,2493,2495,2524,2527
+frontend/src/renderer/components/SessionInterfaceSwitch.test.tsx
+  h_004cd95484b0ae 50,53-64,67-72,74,81-89,92-97
+frontend/src/renderer/components/SessionInterfaceSwitch.tsx
+  h_004cd95484b0ae 81-84,89-91,93-100,102,104-105,107-114,116-121
+frontend/src/renderer/components/SessionView.test.tsx
+  h_004cd95484b0ae 1,3,12-14,19,23,36,50-58,62-64,76-82,116,236-238,249,271,282-284,287-288,364-367,466,469,472-473,476-481,485-487,490-499,504,507,559,579,602,629-644,659-668,688-698,700-704,706,713-714,745-746,748-751,930-959,976,1059,1095,1137,1176,1222-1227,1338,1340,1342-1454,1456-1970,2490-2498,2509-2520,2677,2681,2689-2718,2724,2729,2738,2753,2759,2772,2776,2842,2862-2864,2866,2868-2869,2873-2874,2917,2926-2927,2935-2948,2955,2957-2960,2999,3001-3002,3039,3041
+frontend/src/renderer/components/SessionView.tsx
+  h_004cd95484b0ae 3,12,23,28,68-69,76-88,120,143-150,153,162-197,263,331-333,336,378,397,436-472,475-556,563,587,593-609,643-652,718-732,752-856,885-886,889-890,899-908,926,957,1083-1099,1105-1120,1228,1247-1249,1251-1257,1302,1304-1324,1326-1339,1346-1352,1357-1362,1399,1416-1418,1427,1437,1443-1445,1522,1541-1557,1561,1567,1570-1583,1594-1595,1600-1603,1676,1681,1684,1687,1894,1932,1950,1970,1983-1995,2039-2044,2046,2050,2055-2061,2100-2114,2125,2128,2139,2150-2160,2167-2168
+frontend/src/renderer/components/SessionsBoard.test.tsx
+  h_004cd95484b0ae 117-133,621-645
+frontend/src/renderer/components/SessionsBoard.tsx
+  h_004cd95484b0ae 10,28,31,40-42,111-112,122-128,153,209-222,224-234
+frontend/src/renderer/components/SessionsBoardAdapters.tsx
+  h_004cd95484b0ae 2,19-20,56,158-166,228,230-247
+frontend/src/renderer/components/SettingsDialog.test.tsx
+  h_004cd95484b0ae 1,78-86,114-140
+frontend/src/renderer/components/SettingsDialog.tsx
+  h_004cd95484b0ae 2,4,35-45,69-85,97-124,192-193,195-196,200-202,205,207-223,225,229-233
+frontend/src/renderer/components/ShellTerminalTab.test.tsx
+  h_004cd95484b0ae 97,101,109
+frontend/src/renderer/components/ShellTerminalTab.tsx
+  h_004cd95484b0ae 157-161,181,279,281-282
+frontend/src/renderer/components/ShellTopbar.test.tsx
+  h_004cd95484b0ae 9-10,47,69-72,158,213,449-466
+frontend/src/renderer/components/ShellTopbar.tsx
+  h_004cd95484b0ae 8-10,15-16,19,92,111-112,127-144,197,216,288-291,298,306
+frontend/src/renderer/components/Sidebar.test.tsx
+  h_004cd95484b0ae 23-28,381-387,540-556,642-677,778,1007-1008,1053,1673,1679,1683,1687-1689,1694,1794,1798,1800,1803,1820,1829-1833,2160,2192,2207-2209,2250-2252,2254,2256-2259,2279,2288,2290,2302,2315-2316,2318-2334,2345-2354,2359,2362-2370,2373,2375-2385,2387-2391,2393-2403,2435-2446
+frontend/src/renderer/components/Sidebar.tsx
+  h_004cd95484b0ae 25,59,72-73,91,346-347,372-376,380-381,429,440,446-461,512-513,516-524,531,546-550,623,626-628,640,683,793,885,924,1002,1005,1009,1089,1167,1211-1215,1402,1416-1417,1425-1428,1434-1435,1438-1445,1448,1451-1484,1491-1494,1604,1619,1778-1784,1786,1788,1876-1884,1889-1895,2167,2170,2174-2175,2196-2200,2262,2268,2299,2305-2325,2335-2337,2384,2397,2415-2435,2448-2450,2591,2600,2604,2608
+frontend/src/renderer/components/TaskComposer.test.tsx
+  h_004cd95484b0ae 105-133,499-545
+frontend/src/renderer/components/TaskComposer.tsx
+  h_004cd95484b0ae 25,33,122-124,128,132,145,157,206-230,233-234,241,413,444
+frontend/src/renderer/components/TelemetryConsentRenewalDialog.test.tsx
+  h_004cd95484b0ae 1-86
+frontend/src/renderer/components/TelemetryConsentRenewalDialog.tsx
+  h_004cd95484b0ae 1-53
+frontend/src/renderer/components/TerminalPane.test.tsx
+  h_004cd95484b0ae 13,31-32,47-57,65-79,132,175-176,188-248,519-529,666-686
+frontend/src/renderer/components/TerminalPane.tsx
+  h_004cd95484b0ae 40,171-174,199,202-206,224,315,318-321,325-331,335-343,345,349-364,366,395,471,967-969,1007-1011,1085-1095,1161-1162,1183-1208,1210-1212,1214-1215,1217-1219
+frontend/src/renderer/components/TerminalSearch.tsx
+  h_004cd95484b0ae 122-133
+frontend/src/renderer/components/TerminalTabFrame.tsx
+  h_004cd95484b0ae 7-8,26,38-50,65-66,71-72,77,82-83,96
+frontend/src/renderer/components/TopbarButton.tsx
+  h_004cd95484b0ae 9-10,52
+frontend/src/renderer/components/WorkspaceDiffView.test.tsx
+  h_004cd95484b0ae 3,197-198,205,223-231,233-234
+frontend/src/renderer/components/WorkspaceDiffView.tsx
+  h_004cd95484b0ae 32-36,85,135,260-261,596,601,622-638,642-653,666-671,713
+frontend/src/renderer/components/XtermTerminal.test.tsx
+  h_004cd95484b0ae 13,15,22,48-51,56-57,104-107,112-113,125-127,138-140,242,245,247,255,257,259-262,283,285,288-290,293,326-327,329,331,333,336,338,342,361-376,739-756,772-775,780-783,815-866,1370-1482,2157-2172
+frontend/src/renderer/components/XtermTerminal.tsx
+  h_004cd95484b0ae 192-209,273-277,340-367,620,1004-1023,1039,1366,1406-1412,1419,1425,1444-1457,1461,1582-1588,1596-1604
+frontend/src/renderer/components/chat/ChatCompaction.test.tsx
+  h_004cd95484b0ae 4,24-25
+frontend/src/renderer/components/chat/ChatComposer.test.tsx
+  h_004cd95484b0ae 1-2,6,9-10,13-24,297-319,332-748,776,884-1082,1422-1427,1483-1521,1564,1569-1572,1574-1575,1599-1905,1982-2159
+frontend/src/renderer/components/chat/ChatComposer.tsx
+  h_004cd95484b0ae 1,39,53,65,70-115,128-136,138,162-165,167,177-179,181-186,215,226,230-233,236-237,256-261,263-280,295-305,307-311,334-425,464-486,489-490,493-502,522-557,559-560,600,614-705,707-726,729-757,759,765-831,835-849,873,956-969,972-975,977-980,982-993,995-998,1001-1005,1011-1016,1018-1024,1026,1031-1048,1050-1066,1068-1069,1071-1072,1074-1075,1077-1086,1088-1124,1129-1174,1176-1205,1207-1210,1212-1232,1234-1236,1238,1240-1245,1305,1312,1325,1353-1360,1436,1446-1450,1455-1456,1473-1475,1478,1480,1485-1486,1492,1506,1514-1531,1538,1540,1555,1569,1593,1595,1598,1613
+frontend/src/renderer/components/chat/ChatMarkdown.test.tsx
+  h_004cd95484b0ae 180,187,194,200,212-213
+frontend/src/renderer/components/chat/ChatMarkdown.tsx
+  h_004cd95484b0ae 44,212-213,215,217-219,222-223,227
+frontend/src/renderer/components/chat/ChatQueuedAttachments.test.tsx
+  h_004cd95484b0ae 1,3,5-6,12-16,20,24,50,52,57,61,71,73,97-147,149,151,157,166,169-170,175,188,197,199-200,205,212,215,223,229-231,233,239,242,246-275,277,280,283,285,294,297,302-303,305,310,322,328,332-509
+frontend/src/renderer/components/chat/ChatTimelineItems.tsx
+  h_004cd95484b0ae 1,476,478-479,503,505-506,524-526,532,1931,1942
+frontend/src/renderer/components/chat/ChatWorkspace.test.tsx
+  h_004cd95484b0ae 3,21-31,342-400,411,1030,1087-1090,1199-1266,1684-1688,1877-2634,2678,2714-2720,2741-2742,2756-2760,2762,2941-2943,3356-3462
+frontend/src/renderer/components/chat/ChatWorkspace.tsx
+  h_004cd95484b0ae 1,36-63,66,78,110,134-135,209,260-261,286,364-368,381-382,400-402,420-499,505,572,589-591,711-767,771,773-774,776,778-779,781,784-824,828,830,836,840,844,848,850,852-855,864-866,869-882,1150,1172,1178,1183,1274,1335-1339,1372,1374,1393,1405,1411,1417-1420,1422,1426-1430,1435,1449-1451,1613,1640,1709,1927,1946,1949,1960,1968,1970,1983-2049,2063-2067,2152-2155,2157-2185,2206-2274,2276,2278-2343,2345-2380,2383-2456,2458-2465,2504-2531,2534,2537,2711,2731,2766,2775,2794,2799-2806,2874-2876,2878-2880,2882-2885,2910-2913,2915-2918,2922-2924,2940-2946,2959,2969-2978,3068,3071-3072,3094,3099,3102-3103,3157,3160-3161,3324,3327-3328,3348,3353,3356-3357,3413,3415-3416
+frontend/src/renderer/components/chat/ComposerEditor.tsx
+  h_004cd95484b0ae 67,258,260,270-276,279-285,290,299-300,308-311,315-323,326,328,348,364,379,445
+frontend/src/renderer/components/chat/HumanMessageEditor.tsx
+  h_004cd95484b0ae 14-18,31-34,46-47,50-58,95,119-128,137,156,168
+frontend/src/renderer/components/chat/SessionChatSurface.test.tsx
+  h_004cd95484b0ae 36-37,39,45-46,48,84-86,94-97,186-187,199,415-432,544-548,574-665,769-773,907-910
+frontend/src/renderer/components/chat/SessionChatSurface.tsx
+  h_004cd95484b0ae 11,15,31,55,74,77,112-113,116,149-154,169-181,187-188,200-209,226,247-252,254-308,311,313,410,422-423,465,512
+frontend/src/renderer/components/chat/TurnSettingsBar.test.tsx
+  h_004cd95484b0ae 56-118,335-337,502-920
+frontend/src/renderer/components/chat/TurnSettingsBar.tsx
+  h_004cd95484b0ae 150-155,160-162,196,207,214-221,474-475,589,593,599,604,607-614,877-879,881,885,897-922,935,938-939,945-953,959-960
+frontend/src/renderer/components/diffs/AoDiffFile.test.tsx
+  h_004cd95484b0ae 1-76
+frontend/src/renderer/components/diffs/AoDiffFile.tsx
+  h_004cd95484b0ae 1-171
+frontend/src/renderer/components/diffs/WorkspaceReviewPane.test.tsx
+  h_004cd95484b0ae 1-377
+frontend/src/renderer/components/diffs/WorkspaceReviewPane.tsx
+  h_004cd95484b0ae 1-579
+frontend/src/renderer/components/diffs/pierreTheme.ts
+  h_004cd95484b0ae 1-8
+frontend/src/renderer/components/diffs/usePersistentGutterUtility.ts
+  h_004cd95484b0ae 1-54
+frontend/src/renderer/components/icons/VscodeGoToFileIcon.tsx
+  h_004cd95484b0ae 1-15
+frontend/src/renderer/components/markdown/MarkdownExternalLink.tsx
+  h_004cd95484b0ae 2,6-11
+frontend/src/renderer/components/settings/BrowserImportDialog.test.tsx
+  h_004cd95484b0ae 31-40,61,80-81,166-187
+frontend/src/renderer/components/settings/BrowserImportDialog.tsx
+  h_004cd95484b0ae 53,66,85,183-185,257
+frontend/src/renderer/components/settings/CloudCredentialsSection.tsx
+  h_004cd95484b0ae 2-3,6,8,21,42-43,45-49,51-53,67-95,99,117-130
+frontend/src/renderer/components/settings/CloudProviderSection.test.tsx
+  h_004cd95484b0ae 1-70
+frontend/src/renderer/components/settings/CloudProviderSection.tsx
+  h_004cd95484b0ae 1-97
+frontend/src/renderer/components/settings/GeneralSettingsSection.tsx
+  h_004cd95484b0ae 260-267
+frontend/src/renderer/components/settings/HarnessSettingsSection.test.tsx
+  h_004cd95484b0ae 346,349
+frontend/src/renderer/components/settings/UpdatesSection.test.tsx
+  h_004cd95484b0ae 1-90
+frontend/src/renderer/components/settings/UpdatesSection.tsx
+  h_004cd95484b0ae 584-588
+frontend/src/renderer/components/settings/settingsCatalog.tsx
+  h_004cd95484b0ae 8,76-81
+frontend/src/renderer/components/ui/command.test.tsx
+  h_004cd95484b0ae 1-29
+frontend/src/renderer/components/ui/command.tsx
+  h_004cd95484b0ae 4,31,41-65,67,69-86
+frontend/src/renderer/components/ui/sidebar.tsx
+  h_004cd95484b0ae 157,163,221,236,255
+frontend/src/renderer/hooks/useAgentSwitchProviderCatalogs.test.tsx
+  h_004cd95484b0ae 1-337
+frontend/src/renderer/hooks/useAgentSwitchProviderCatalogs.ts
+  h_004cd95484b0ae 1-78
+frontend/src/renderer/hooks/useBoardPresentation.ts
+  h_004cd95484b0ae 1-36
+frontend/src/renderer/hooks/useBrowserView.test.tsx
+  h_004cd95484b0ae 77-84,89-96,102-107,127-131,254-286,297-308,318-321,323-337,350-361,368-375,378-381,394-401,405-410,416-421,424-427,439-446,450-455,461-464,477-488,512-515,532-543,589-600,612-619,641-652,662-673,693-698,707-714,736-741,750-757,779-790,796-803,811-818,824-830,839-850,1013-1015,1243-1261,1307-1311,1343-1355,1359-1362,1377-1380,1382-1385,1397-1403,1413-1416,1433-1437,1439-1443,1452-1456,1458-1461,1563-1568,1592-1598,1606-1609,1616-1618,1632-1644,1719-1722,1747-1750,1785-1788
+frontend/src/renderer/hooks/useBrowserView.ts
+  h_004cd95484b0ae 73,174-179,228-231,273-277,360-363,366,405-414,444-447,559,561-576,595-596,601-604,679,717-725,729-756,781-785,833-838,915
+frontend/src/renderer/hooks/useCloudSandboxProviders.ts
+  h_004cd95484b0ae 1-43
+frontend/src/renderer/hooks/useConversation.test.tsx
+  h_004cd95484b0ae 7,9,16,22-23,26-27,46-52,100,107-143,620-660,795-818,839-874,985-1029,1125-1192
+frontend/src/renderer/hooks/useConversation.ts
+  h_004cd95484b0ae 42-43,63-64,101,113-178,236-269,272,383-390,415-419,456-461,491-495,509-513,669,674,725,902-908,917,933-934,993,995,999-1000,1006-1011,1023-1032,1103-1104,1117-1157,1232-1239,1257-1266,1273-1274,1293,1300-1312
+frontend/src/renderer/hooks/useFileAnnotation.test.tsx
+  h_004cd95484b0ae 1-22
+frontend/src/renderer/hooks/useFileAnnotation.ts
+  h_004cd95484b0ae 7-14,43-46
+frontend/src/renderer/hooks/useFileAttachments.test.ts
+  h_004cd95484b0ae 1,6-9,13,15,17,35-347
+frontend/src/renderer/hooks/useFileAttachments.ts
+  h_004cd95484b0ae 1-2,27-29,39-253,289-296,298-301,303-304,307-332,334,374-375,398,413,416-448,450-484,490-497,499,506-513,515-537,540-544,548-550,558-561,566,570-572
+frontend/src/renderer/hooks/useOrchestratorChildren.test.tsx
+  h_004cd95484b0ae 1-139
+frontend/src/renderer/hooks/useOrchestratorChildren.ts
+  h_004cd95484b0ae 1-97
+frontend/src/renderer/hooks/usePierreFileHighlight.test.tsx
+  h_004cd95484b0ae 1-50
+frontend/src/renderer/hooks/usePierreFileHighlight.ts
+  h_004cd95484b0ae 1-44
+frontend/src/renderer/hooks/useProjectOrchestratorAction.ts
+  h_004cd95484b0ae 1-114
+frontend/src/renderer/hooks/useResizable.test.ts
+  h_004cd95484b0ae 1-49
+frontend/src/renderer/hooks/useResizable.ts
+  h_004cd95484b0ae 6,8-12,35-36,40,53-54,57-63,69-72,74,108,110-111,117,119-121,127,129-131,134,136-139,147-150,157-160,166,168-170,173,175-178,190-193
+frontend/src/renderer/hooks/useSessionBrowserLink.ts
+  h_004cd95484b0ae 9-12,31-36,53
+frontend/src/renderer/hooks/useSessionInterfaceTransition.test.tsx
+  h_004cd95484b0ae 678-711
+frontend/src/renderer/hooks/useSessionInterfaceTransition.ts
+  h_004cd95484b0ae 8,337-346,350
+frontend/src/renderer/hooks/useSessionWorkspaceFiles.ts
+  h_004cd95484b0ae 13-14,16,21,23-30,32-33,36-37,39-42,52,60-65,68-69,71,73,82-200,202-210
+frontend/src/renderer/hooks/useSessionWorkspaceTree.ts
+  h_004cd95484b0ae 47-51,68
+frontend/src/renderer/hooks/useShellTerminals.test.tsx
+  h_004cd95484b0ae 17,27-29,77-78,161-193
+frontend/src/renderer/hooks/useShellTerminals.ts
+  h_004cd95484b0ae 13,24-25,62-65,76,92-103,149,151-157,171-188,219,230-231,268-278,281,294,306-307,325-332,356
+frontend/src/renderer/hooks/useSwitchAgent.test.tsx
+  h_004cd95484b0ae 60,79-83
+frontend/src/renderer/hooks/useSwitchAgent.ts
+  h_004cd95484b0ae 7,117
+frontend/src/renderer/hooks/useTerminalSession.test.tsx
+  h_004cd95484b0ae 162,188,418-427,1064-1124
+frontend/src/renderer/hooks/useTerminalSession.ts
+  h_004cd95484b0ae 80-81,110-115,216-219,334,353-369,640,650,653-658,700-704,715,846
+frontend/src/renderer/hooks/useTerminateSession.test.tsx
+  h_004cd95484b0ae 2,6,8-12,16-20,23-24,28-38,74-77,81-117
+frontend/src/renderer/hooks/useTerminateSession.ts
+  h_004cd95484b0ae 3,6-7,15-32,95,111-113
+frontend/src/renderer/hooks/useWorkspaceQuery.test.tsx
+  h_004cd95484b0ae 7,14,29,39,65,70-82,119,184,337-374,529-543,547,557,614-643
+frontend/src/renderer/hooks/useWorkspaceQuery.ts
+  h_004cd95484b0ae 1,28-29,32-42,74-76,79-81,109,111,129-131,142-194,225-226,229-235,240-249,259-260,292,299-304,386-389,420-423,466,492-496,519-522,532
+frontend/src/renderer/i18n/de.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,135,225,317,326-328,346,349,444,461-463,591,611-618,701,738,937-940,1064-1066,1212,1217,1232-1233,1446-1448,1542-1559,1570-1580,1637-1644,1731,1901,1932-1936,1944-1995
+frontend/src/renderer/i18n/en.json
+  h_004cd95484b0ae 2-4,17-22,75-78,86,103,191,217-218,223,293,300-302,339,343,346,457-459,601,605,672,675,712,733,735,738,740,743,745,897,900-903,905-912,919,925-928,946,984,1019,1034,1036,1060-1061,1157,1161,1170,1182-1185,1188,1192-1194,1199-1202,1205-1206,1210,1216-1217,1222,1227,1237,1331,1336,1353-1354,1363,1582-1584,1700-1717,1728-1738,1795-1802,1911-1915,1922-1976
+frontend/src/renderer/i18n/es.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,136,226,319,328-330,348,351,446,463-465,593,613-620,703,750,956-959,1084-1086,1233,1238,1253-1254,1467-1469,1564-1581,1594-1604,1661-1668,1757,1928,1960-1964,1972-2023
+frontend/src/renderer/i18n/fr.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,136,226,319,328-330,348,351,446,463-465,593,613-620,703,750,956-959,1084-1086,1233,1238,1253-1254,1467-1469,1564-1581,1594-1604,1661-1668,1757,1928,1960-1964,1972-2023
+frontend/src/renderer/i18n/ja.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,135,225,317,326-328,346,349,444,461-463,591,611-618,701,738,937-940,1064-1066,1212,1217,1232-1233,1446-1448,1542-1559,1570-1580,1637-1644,1731,1901,1932-1936,1944-1995
+frontend/src/renderer/i18n/ko.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,135,225,317,326-328,346,349,444,461-463,591,611-618,701,738,937-940,1064-1066,1212,1217,1232-1233,1446-1448,1542-1559,1570-1580,1637-1644,1731,1901,1932-1936,1944-1995
+frontend/src/renderer/i18n/pt-BR.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,136,226,319,328-330,348,351,446,463-465,593,613-620,703,750,956-959,1084-1086,1233,1238,1253-1254,1467-1469,1564-1581,1594-1604,1661-1668,1757,1928,1960-1964,1972-2023
+frontend/src/renderer/i18n/renderer-coverage.test.ts
+  h_004cd95484b0ae 44
+frontend/src/renderer/i18n/zh-CN.json
+  h_004cd95484b0ae 2-4,45,49-54,61,107-110,117,135,225,317,326-328,346,349,443,460-462,591,611-618,683,720,919-922,1048-1050,1196,1201,1218-1219,1447-1449,1554-1571,1582-1592,1649-1656,1743,1883,1914-1918,1926-1977
+frontend/src/renderer/lib/bridge.ts
+  h_004cd95484b0ae 30,88-89
+frontend/src/renderer/lib/browser-tab-label.test.ts
+  h_004cd95484b0ae 28-39
+frontend/src/renderer/lib/browser-tab-label.ts
+  h_004cd95484b0ae 5-11
+frontend/src/renderer/lib/build-channel.test.ts
+  h_004cd95484b0ae 25,28-74
+frontend/src/renderer/lib/build-channel.ts
+  h_004cd95484b0ae 22-26,28,31-33
+frontend/src/renderer/lib/chat-draft-boundary.test.ts
+  h_004cd95484b0ae 1-126
+frontend/src/renderer/lib/chat-draft-boundary.ts
+  h_004cd95484b0ae 1-130
+frontend/src/renderer/lib/chat-draft-messages.ts
+  h_004cd95484b0ae 1-7
+frontend/src/renderer/lib/chat-drafts.test.ts
+  h_004cd95484b0ae 1-1097
+frontend/src/renderer/lib/chat-drafts.ts
+  h_004cd95484b0ae 1-1393
+frontend/src/renderer/lib/cloud-cp/client.test.ts
+  h_004cd95484b0ae 1-33
+frontend/src/renderer/lib/cloud-cp/client.ts
+  h_004cd95484b0ae 33,36,39,122-128,134-138,176,184-185,380-384,387-390,417,427-428
+frontend/src/renderer/lib/cloud-cp/types.ts
+  h_004cd95484b0ae 34-41,46-50,177-182,198-200,217-241,255-262,344-349
+frontend/src/renderer/lib/cloud-lifecycle.test.ts
+  h_004cd95484b0ae 1-46
+frontend/src/renderer/lib/cloud-lifecycle.ts
+  h_004cd95484b0ae 1-38
+frontend/src/renderer/lib/cloud-orchestrator.test.ts
+  h_004cd95484b0ae 1-31
+frontend/src/renderer/lib/cloud-orchestrator.ts
+  h_004cd95484b0ae 3,5-6,22-38,50-80
+frontend/src/renderer/lib/cloud-terminal-mux.test.ts
+  h_004cd95484b0ae 2,4-29,31-32,34-40,42,44-55,57-63,66-79
+frontend/src/renderer/lib/cloud-terminal-mux.ts
+  h_004cd95484b0ae 28-41,60-70,101,105,111-123,129,133,141,146-148,150,157-207,210-211,257-258
+frontend/src/renderer/lib/command-palette.test.ts
+  h_004cd95484b0ae 16-22,623-640
+frontend/src/renderer/lib/command-palette.ts
+  h_004cd95484b0ae 14,30-31,121-123,220-242,274,313,319
+frontend/src/renderer/lib/dom-selectors.ts
+  h_004cd95484b0ae 5-9
+frontend/src/renderer/lib/event-transport.test.ts
+  h_004cd95484b0ae 217,225-226,559-563,566,568-569,577-579,581-582,587
+frontend/src/renderer/lib/event-transport.ts
+  h_004cd95484b0ae 99-132,197-203,205-210,213-215
+frontend/src/renderer/lib/mock-data.ts
+  h_004cd95484b0ae 1,596-661
+frontend/src/renderer/lib/navigate-to-session.ts
+  h_004cd95484b0ae 3-17,24
+frontend/src/renderer/lib/pr-display.test.ts
+  h_004cd95484b0ae 240-282,377-391
+frontend/src/renderer/lib/pr-display.ts
+  h_004cd95484b0ae 229,268-281,287,294-296,300-303,417
+frontend/src/renderer/lib/session-presentation.test.ts
+  h_004cd95484b0ae 165-172
+frontend/src/renderer/lib/session-presentation.ts
+  h_004cd95484b0ae 74-79,83-85,88-92
+frontend/src/renderer/lib/session-reviews.test.ts
+  h_004cd95484b0ae 6,88-98
+frontend/src/renderer/lib/session-reviews.ts
+  h_004cd95484b0ae 11,54-75
+frontend/src/renderer/lib/telemetry.ts
+  h_004cd95484b0ae 482-499
+frontend/src/renderer/lib/terminal-mux.ts
+  h_004cd95484b0ae 91-96
+frontend/src/renderer/lib/update-install-risk.test.ts
+  h_004cd95484b0ae 33-40
+frontend/src/renderer/lib/update-install-risk.ts
+  h_004cd95484b0ae 4-7,20,29
+frontend/src/renderer/lib/workspace-file-events.test.ts
+  h_004cd95484b0ae 112,115-117
+frontend/src/renderer/lib/workspace-file-events.ts
+  h_004cd95484b0ae 89-91
+frontend/src/renderer/main.tsx
+  h_004cd95484b0ae 89-91,93-100
+frontend/src/renderer/native-composition-cascade.test.ts
+  h_004cd95484b0ae 78-84,115-133
+frontend/src/renderer/routeTree.gen.ts
+  h_004cd95484b0ae 16-17,42-44,47-56,77,82,92,99,105,113,118,128,134,140,179-192,195,198,224-237,239,249
+frontend/src/renderer/routes/_shell.sessions.index.tsx
+  h_004cd95484b0ae 1-10
+frontend/src/renderer/routes/_shell.sessions.tsx
+  h_004cd95484b0ae 1-9
+frontend/src/renderer/routes/_shell.tsx
+  h_004cd95484b0ae 1-2,4,23,33,55,102-105,179,224-226,295-297,347,370-373,389-461,481-487,489,699,723-724,745,754,792-795,809,816,819,862,878,939,963,1004-1005,1015,1020-1029,1035,1048,1061,1096
+frontend/src/renderer/stores/sandbox-provider-store.test.ts
+  h_004cd95484b0ae 1-37
+frontend/src/renderer/stores/sandbox-provider-store.ts
+  h_004cd95484b0ae 1,3-9,11-21,23-24,30-39,41-53
+frontend/src/renderer/stores/telemetry-policy-store.test.ts
+  h_004cd95484b0ae 25-34
+frontend/src/renderer/stores/telemetry-policy-store.ts
+  h_004cd95484b0ae 39
+frontend/src/renderer/stores/ui-store.ts
+  h_004cd95484b0ae 50,83-86,152,215,351,370-379,414-427
+frontend/src/renderer/styles.css
+  h_004cd95484b0ae 314-331,2983,3421-3423,3547-3598,4216-4218,4238-4240,4243-4244,4265-4267,4269,4302-4305,4307-4309,4330-4402,4406,4411-4423,4445-4461,4463-4467,4470-4473,4476-4480,4483-4485,4487-4488,4494,4496,4506-4521,4525-4530,4547,4554,4559,4584-4585,4599-4600,4611-4614,4622-4626,4641-4642,4645,4647,4650-4654,4664,4672-4674,4683-4684,4693-4699,4701,4703-4704,4707-4712,4722,4724-4725,4744-4748,4762,4875,4924-4926,4931-4933
+frontend/src/renderer/test/setup.ts
+  h_004cd95484b0ae 119,175-176,192-194
+frontend/src/renderer/test/shell-new-session-shortcut.test.tsx
+  h_004cd95484b0ae 151-152,506-526,698-716,775,780-781,819-847
+frontend/src/renderer/types/conversation.ts
+  h_004cd95484b0ae 69-80,158
+frontend/src/renderer/types/workspace.ts
+  h_004cd95484b0ae 114,117-119,163-168,189-192,328
+frontend/src/shared/browser-profile-import.ts
+  h_004cd95484b0ae 7,11,33
+frontend/src/shared/chat-draft-risk.test.ts
+  h_004cd95484b0ae 1-30
+frontend/src/shared/chat-draft-risk.ts
+  h_004cd95484b0ae 1-41
+frontend/src/shared/diff-selection.test.ts
+  h_004cd95484b0ae 9-23
+frontend/src/shared/diff-selection.ts
+  h_004cd95484b0ae 20-22,46-48,54
+frontend/src/shared/editor-handoff.ts
+  h_004cd95484b0ae 4
+frontend/src/shared/file-annotations.ts
+  h_004cd95484b0ae 15-17,39-41
+frontend/src/shared/telemetry-policy.test.ts
+  h_004cd95484b0ae 2,7,10,13,16-31,43-45,50-115
+frontend/src/shared/telemetry-policy.ts
+  h_004cd95484b0ae 1-2,4,7,16,50-51,63,65-68,71,80-86,94,96-97,103-106
+frontend/src/shared/telemetry.test.ts
+  h_004cd95484b0ae 14
+packages/cloud-client/src/schema.ts
+  h_004cd95484b0ae 291-310,753,800-816,1554-1573,2563-2589,3272,3286,3393-3428
+packages/mobile/README.md
+  h_004cd95484b0ae 399-400
+packages/mobile/app.json
+  h_004cd95484b0ae 5,56
+packages/mobile/app/(tabs)/index.tsx
+  h_004cd95484b0ae 11,31-46,48-57,198,206,215-225,306
+packages/mobile/app/(tabs)/settings.tsx
+  h_004cd95484b0ae 28,37,81
+packages/mobile/app/spawn.tsx
+  h_004cd95484b0ae 27,38,90-104,178-189,278
+packages/mobile/assets/AO.icon/icon.json
+  h_004cd95484b0ae 3,9-10,14-15,17,26-33
+packages/mobile/lib/ProjectPickerSheet.tsx
+  h_004cd95484b0ae 8
+packages/mobile/lib/ProjectSwitcher.tsx
+  h_004cd95484b0ae 6,21,46
+packages/mobile/lib/api.ts
+  h_004cd95484b0ae 119-123,384-387,390,394
+packages/mobile/lib/chat/ChatSessionScreen.tsx
+  h_004cd95484b0ae 249-281,317-321,449-452,458
+packages/mobile/lib/chat/eventCursor.test.ts
+  h_004cd95484b0ae 11,19-42
+packages/mobile/lib/chat/eventCursor.ts
+  h_004cd95484b0ae 2,26-29,32
+packages/mobile/lib/config.ts
+  h_004cd95484b0ae 120-139
+packages/mobile/lib/mux.test.ts
+  h_004cd95484b0ae 1-95
+packages/mobile/lib/mux.ts
+  h_004cd95484b0ae 54-59,62-76,78-80,83-84
+packages/mobile/lib/projectFilter.test.ts
+  h_004cd95484b0ae 1-230
+packages/mobile/lib/projectFilter.ts
+  h_004cd95484b0ae 1-169
+packages/mobile/lib/session/TerminalSessionScreen.tsx
+  h_004cd95484b0ae 5,31-32,630-649,1046-1052,1054-1091,1109-1127,1149-1153,1156-1169,1187,1431-1439
+packages/mobile/lib/session/interfaceTransition.test.ts
+  h_004cd95484b0ae 2-13,17,22-280
+packages/mobile/lib/session/interfaceTransition.ts
+  h_004cd95484b0ae 1-3,6-9,20-42,53-222
+packages/mobile/lib/session/useInterfaceTransition.ts
+  h_004cd95484b0ae 2,4-6,15,18,21,25-33,47-56,60-78,80-84,87-90,93-94,100,102-123,125,127,130-132,136-163,165-232,240-247,261,291,303,315-319
+packages/mobile/lib/store.tsx
+  h_004cd95484b0ae 25,38,68-71,109,127-131,136-138,199,309-328,447,451-469,472,478-498,504-513,559,584
+packages/mobile/lib/telemetry/events.ts
+  h_004cd95484b0ae 74,77-81
+packages/mobile/lib/telemetry/runtime.ts
+  h_004cd95484b0ae 6,116-119,123-126,128-132,135,138
+packages/mobile/lib/telemetry/sanitize.test.ts
+  h_004cd95484b0ae 32-58
+packages/mobile/scripts/generate-icons.sh
+  h_004cd95484b0ae 2,6-10,27,29,31,34,38-39,43-44,46
+packages/mobile/scripts/icon-build/from-desktop.py
+  h_004cd95484b0ae 1-27,29-30,35-99,101-108,110-112,114-120,124-130,133-180,184-192,196-205,209-210,214-226,228-272,274-297
+packages/product-ui/src/SessionInspectorView.test.tsx
+  h_004cd95484b0ae 141
+packages/product-ui/src/SessionInspectorView.tsx
+  h_004cd95484b0ae 110-115,117-123,238,247-251,255
+packages/product-ui/src/SessionsBoardView.test.tsx
+  h_004cd95484b0ae 84-92
+packages/product-ui/src/SessionsBoardView.tsx
+  h_004cd95484b0ae 23,57,260,266-271,275-280,293,305,383,420
+packages/product-ui/src/session-presentation.ts
+  h_004cd95484b0ae 12-13,27-28
+translations/README.de.md
+  h_004cd95484b0ae 13,20,164,181,214,240
+translations/README.es.md
+  h_004cd95484b0ae 13,20,164,181,214,240
+translations/README.fr.md
+  h_004cd95484b0ae 13,20,164,181,214,240
+translations/README.ja.md
+  h_004cd95484b0ae 13,20,164,181,214,240
+translations/README.ko.md
+  h_004cd95484b0ae 13,20,164,181,214,240
+translations/README.pt-BR.md
+  h_004cd95484b0ae 13,20,164,181,216,242
+translations/README.zh-CN.md
+  h_004cd95484b0ae 13,20,164,181,216,242
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "291b82f5dbe9c61acfec30118b7a9b4730b108a4",
+  "prompts": {},
+  "humans": {
+    "h_004cd95484b0ae": {
+      "author": "Sundaram Kumar Jha <jhasundaram@outlook.com>"
+    }
+  }
+}
