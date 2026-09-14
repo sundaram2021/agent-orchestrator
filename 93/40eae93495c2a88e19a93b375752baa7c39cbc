@@ -1,0 +1,14 @@
+frontend/src/main/editor-handoff.test.ts
+  h_004cd95484b0ae 170-214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9340eae93495c2a88e19a93b375752baa7c39cbc",
+  "prompts": {},
+  "humans": {
+    "h_004cd95484b0ae": {
+      "author": "Sundaram Kumar Jha <jhasundaram@outlook.com>"
+    }
+  }
+}
