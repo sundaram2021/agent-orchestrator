@@ -1,0 +1,14 @@
+backend/internal/httpd/sse/writer.go
+  h_004cd95484b0ae 83-88,91,93,96,98,101-103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "23f373662960abfcca3d598f5723a770ec805e5b",
+  "prompts": {},
+  "humans": {
+    "h_004cd95484b0ae": {
+      "author": "Sundaram Kumar Jha <jhasundaram@outlook.com>"
+    }
+  }
+}
