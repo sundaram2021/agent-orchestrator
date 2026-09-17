@@ -1,0 +1,21 @@
+backend/internal/httpd/sse/writer_test.go
+  s_e7f741bc616e17::t_78f00712099fe0 148-200
+backend/internal/httpd/sse/writer.go
+  s_e7f741bc616e17::t_e938244f0b7c76 42-66,72-78,81-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5cd2cda3a951f1ca0183233777a7c4c652d11a51",
+  "prompts": {},
+  "sessions": {
+    "s_e7f741bc616e17": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f544a6115ffeGxrqcgse1NFRID",
+        "model": "unknown"
+      },
+      "human_author": "Sundaram Kumar Jha <jhasundaram@outlook.com>"
+    }
+  }
+}
